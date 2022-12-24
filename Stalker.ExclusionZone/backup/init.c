@@ -156,51 +156,51 @@ class CustomMission: MissionServer
 			itemBs = ItemBase.Cast(itemEnt);
 
 			//Ботинки
-			itemEnt = player.GetInventory().CreateInInventory( "WorkingBoots_Beige" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "WorkingBoots_Beige" );
                 	itemBs = ItemBase.Cast(itemEnt);
 
 			//Худи
-			itemEnt = player.GetInventory().CreateInInventory( "Hoodie_Green" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Hoodie_Green" );
                 	itemBs = ItemBase.Cast(itemEnt);
 
 			//Кепка
-			itemEnt = player.GetInventory().CreateInInventory( "BaseballCap_Camo" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "BaseballCap_Camo" );
                 	itemBs = ItemBase.Cast(itemEnt);
 
 			//Перчатки
-			itemEnt = player.GetInventory().CreateInInventory( "WorkingGloves_Black" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "WorkingGloves_Black" );
                 	itemBs = ItemBase.Cast(itemEnt);
 
 			//Джинсы
-			itemEnt = player.GetInventory().CreateInInventory( "Jeans_Brown" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Jeans_Brown" );
                 	itemBs = ItemBase.Cast(itemEnt);
 
 
 			//ОРУЖИЕ
 			//Обрез
-			itemEnt = player.GetInventory().CreateInInventory( "Toz66Obrez_AoD" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Toz66Obrez_AoD" );
 	                itemBs = ItemBase.Cast(itemEnt);
 
 			//Патроны
-			itemEnt = player.GetInventory().CreateInInventory( "AmmoBox_00buck_10rnd" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "AmmoBox_00buck_10rnd" );
 	                if ( Class.CastTo( itemBs, itemEnt ) )
                                 itemBs.SetQuantity( 7 );//Количество
 
 
 			//ЕДА
 			//Сало
-			itemEnt = player.GetInventory().CreateInInventory( "Lard" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Lard" );
         	        itemBs = ItemBase.Cast(itemEnt);
 
 			//Мармелад
-			itemEnt = player.GetInventory().CreateInInventory( "Marmelade" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "Marmelade" );
         	        itemBs = ItemBase.Cast(itemEnt);
 
-			itemEnt = player.GetInventory().CreateInInventory( "SardinesCan" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "SardinesCan" );
 	                itemBs = ItemBase.Cast(itemEnt);
 
 			//Бутылка воды
-			itemEnt = player.GetInventory().CreateInInventory( "WaterBottle" );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "WaterBottle" );
 	                itemBs = ItemBase.Cast(itemEnt);
 
 
