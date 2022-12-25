@@ -1,3 +1,5 @@
+#include "$CurrentDir:mpmissions\Stalker.ExclusionZone\CustomSpawnPlayerConfig\init_mod.c"
+
 void main()
 
 {
