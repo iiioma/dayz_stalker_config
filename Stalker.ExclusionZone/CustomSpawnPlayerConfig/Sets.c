@@ -99,8 +99,40 @@ class StartSetsPlayersConfig
 			
 			default: //Default starting spawn set (Сет поумолчанию для всех игроков, если хотите назначить - добавляйте здесь!)
 			{
-				//My_Custom_Spawn_Parameters.RemoveAllItems(player); // Чтобы удалить с персонажа уже имеющиеся стандартные стартовые шмотки раскомментировать строку
-				DefaultSets(player); // Для выдачи своих сетов по рандому всем игрокам, не прописанным в скрипте, раскомментировать эту строку
+				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Чтобы удалить с персонажа уже имеющиеся стандартные стартовые шмотки раскомментировать строку
+				//DefaultSets(player); // Для выдачи своих сетов по рандому всем игрокам, не прописанным в скрипте, раскомментировать эту строку
+				itemCreated = player.GetInventory().CreateInInventory("Bridger_AoD_Back"); 	        // Выдаем рюкзак и записываем в переменную itemCreated
+				if (itemCreated)															            // Проверяем, создался ли рюкзак. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				{                                                                                       
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");		            // Выдаем игроку бинты в рюкзак и записываем в переменную itemCreated1
+					if (itemCreated1)														            // Проверяем, создались ли бинты в рюкзаке, они у нас с переменной itemCreated1
+					{                                                                                   
+						itemCasted = ItemBase.Cast(itemCreated1);							            // Выполняем преобразование в другой класс для работы с нужной нам функцией, поскольку в классе EntityAI нет нужной нам функции SetQuantity, а в подклассе ItemBase она есть. Предмет при этом так и остается один и тот же!
+						itemCasted.SetQuantity(4);											            // Определяем количество для созданных бинтов как 4 штуки
+						SetRandomHealthItem(itemCreated);									            // Выдаем бинтам рандомное качество, функция работает с классом EntityAI (см. в конфе файла)
+					}
+				}
+				itemCreated = player.GetInventory().CreateInInventory("WaterBottle");            	    // Выдаем игроку воду в бутылке
+				//itemCreated = player.GetInventory().CreateInInventory("Marmelade");            	        // Выдаем игроку мармелад
+				itemCreated = player.GetInventory().CreateInInventory("SardinesCan");	                // Добавляем в инвентарь созданного рюкзака сардины и записываем в переменную itemCreated1
+				// переменную itemCreated не обнуляем далее, поскольку мы ее не используем в проверке ниже.
+		        itemCreated = player.GetInventory().CreateInInventory("BaseballCap_Camo");            	// Выдаем игроку головной убор
+		        itemCreated = player.GetInventory().CreateInInventory("WorkingGloves_Black");		    // Выдаем игроку перчатки
+				itemCreated = player.GetInventory().CreateInInventory("Jeans_Brown");		            // Выдаем игроку штаны
+				itemCreated = player.GetInventory().CreateInInventory("WorkingBoots_Beige");	        // Выдаем игроку обувь
+				itemCreated = player.GetInventory().CreateInInventory("Hoodie_Green");	                // Выдаем игроку куртку				
+				itemCreated = NULL;
+				//itemCasted = ItemBase.Cast(itemCreated);									            // Строка не нужна, закоментирована. используется для изменения класса EntityAI в ItemBase (чтобы нужные операции были доступны)
+				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		            // Выдаем игроку ножик в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
+				itemCreated = NULL;															            // Обнуляем значение переменной после работы с ней, нужно если мы будем использовать ее далее
+				itemCreated = player.GetHumanInventory().CreateInHands("Toz66Obrez_AoD");				// Выдаем игроку ТОЗ в руки
 				break;
 			}
 		}
