@@ -6,107 +6,107 @@ class StartSetsPlayersConfig
 		EntityAI itemCreated1 = NULL;
 		ItemBase itemCasted = NULL;
 		
-		switch( use_set_id ) //Раздаем лут (можно использовать значения от 1 и выше, только не 0 и не -1)
+		switch( use_set_id ) //Р Р°Р·РґР°РµРј Р»СѓС‚ (РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ 1 Рё РІС‹С€Рµ, С‚РѕР»СЊРєРѕ РЅРµ 0 Рё РЅРµ -1)
 		{
-			case 1: //Set with number 1 (Сет с номером 1)
+			case 1: //Set with number 1 (РЎРµС‚ СЃ РЅРѕРјРµСЂРѕРј 1)
 			{
-				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Чтобы удалить с персонажа уже имеющиеся стандартные стартовые шмотки раскомментировать строку
-				itemCreated = player.GetInventory().CreateInInventory("MountainBag_Green"); 	        // Выдаем рюкзак и записываем в переменную itemCreated
-				if (itemCreated)															            // Проверяем, создался ли рюкзак. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Р§С‚РѕР±С‹ СѓРґР°Р»РёС‚СЊ СЃ РїРµСЂСЃРѕРЅР°Р¶Р° СѓР¶Рµ РёРјРµСЋС‰РёРµСЃСЏ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Рµ СЃС‚Р°СЂС‚РѕРІС‹Рµ С€РјРѕС‚РєРё СЂР°СЃРєРѕРјРјРµРЅС‚РёСЂРѕРІР°С‚СЊ СЃС‚СЂРѕРєСѓ
+				itemCreated = player.GetInventory().CreateInInventory("MountainBag_Green"); 	        // Р’С‹РґР°РµРј СЂСЋРєР·Р°Рє Рё Р·Р°РїРёСЃС‹РІР°РµРј РІ РїРµСЂРµРјРµРЅРЅСѓСЋ itemCreated
+				if (itemCreated)															            // РџСЂРѕРІРµСЂСЏРµРј, СЃРѕР·РґР°Р»СЃСЏ Р»Рё СЂСЋРєР·Р°Рє. Р•СЃР»Рё РѕРЅ СЃРѕР·РґР°Р»СЃСЏ, РїРµСЂРµРјРµРЅРЅР°СЏ itemCreated Р±СѓРґРµС‚ РЅРµ РїСѓСЃС‚Р° Рё РїСЂРѕРІРµСЂРєР° РїСЂРѕР№РґРµС‚
 				{                                                                                       
-					SetRandomHealthItem(itemCreated);										            // Выдаем рюкзаку рандомное качество
-					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Apple");	            // Добавляем в инвентарь созданного рюкзака яблоко и записываем в переменную itemCreated1
-					if (itemCreated1)														            // Проверяем, создалось ли яблоко в рюкзаке, яблоко у нас с переменной itemCreated1
+					SetRandomHealthItem(itemCreated);										            // Р’С‹РґР°РµРј СЂСЋРєР·Р°РєСѓ СЂР°РЅРґРѕРјРЅРѕРµ РєР°С‡РµСЃС‚РІРѕ
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Apple");	            // Р”РѕР±Р°РІР»СЏРµРј РІ РёРЅРІРµРЅС‚Р°СЂСЊ СЃРѕР·РґР°РЅРЅРѕРіРѕ СЂСЋРєР·Р°РєР° СЏР±Р»РѕРєРѕ Рё Р·Р°РїРёСЃС‹РІР°РµРј РІ РїРµСЂРµРјРµРЅРЅСѓСЋ itemCreated1
+					if (itemCreated1)														            // РџСЂРѕРІРµСЂСЏРµРј, СЃРѕР·РґР°Р»РѕСЃСЊ Р»Рё СЏР±Р»РѕРєРѕ РІ СЂСЋРєР·Р°РєРµ, СЏР±Р»РѕРєРѕ Сѓ РЅР°СЃ СЃ РїРµСЂРµРјРµРЅРЅРѕР№ itemCreated1
 					{                                                                                   
-						SetRandomHealthItem(itemCreated1);									            // Выдаем яблоку рандомное качество
+						SetRandomHealthItem(itemCreated1);									            // Р’С‹РґР°РµРј СЏР±Р»РѕРєСѓ СЂР°РЅРґРѕРјРЅРѕРµ РєР°С‡РµСЃС‚РІРѕ
 					}                                                                                   
-					itemCreated1 = NULL;													            // Обнуляем значение переменной после работы с ней, чтобы следующая проверка прошла корректно
-					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");		            // Выдаем игроку бинты в рюкзак и записываем в переменную itemCreated1
-					if (itemCreated1)														            // Проверяем, создались ли бинты в рюкзаке, они у нас с переменной itemCreated1
+					itemCreated1 = NULL;													            // РћР±РЅСѓР»СЏРµРј Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№ РїРѕСЃР»Рµ СЂР°Р±РѕС‚С‹ СЃ РЅРµР№, С‡С‚РѕР±С‹ СЃР»РµРґСѓСЋС‰Р°СЏ РїСЂРѕРІРµСЂРєР° РїСЂРѕС€Р»Р° РєРѕСЂСЂРµРєС‚РЅРѕ
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");		            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ Р±РёРЅС‚С‹ РІ СЂСЋРєР·Р°Рє Рё Р·Р°РїРёСЃС‹РІР°РµРј РІ РїРµСЂРµРјРµРЅРЅСѓСЋ itemCreated1
+					if (itemCreated1)														            // РџСЂРѕРІРµСЂСЏРµРј, СЃРѕР·РґР°Р»РёСЃСЊ Р»Рё Р±РёРЅС‚С‹ РІ СЂСЋРєР·Р°РєРµ, РѕРЅРё Сѓ РЅР°СЃ СЃ РїРµСЂРµРјРµРЅРЅРѕР№ itemCreated1
 					{                                                                                   
-						itemCasted = ItemBase.Cast(itemCreated1);							            // Выполняем преобразование в другой класс для работы с нужной нам функцией, поскольку в классе EntityAI нет нужной нам функции SetQuantity, а в подклассе ItemBase она есть. Предмет при этом так и остается один и тот же!
-						itemCasted.SetQuantity(4);											            // Определяем количество для созданных бинтов как 4 штуки
-						SetRandomHealthItem(itemCreated);									            // Выдаем бинтам рандомное качество, функция работает с классом EntityAI (см. в конфе файла)
+						itemCasted = ItemBase.Cast(itemCreated1);							            // Р’С‹РїРѕР»РЅСЏРµРј РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РІ РґСЂСѓРіРѕР№ РєР»Р°СЃСЃ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ РЅСѓР¶РЅРѕР№ РЅР°Рј С„СѓРЅРєС†РёРµР№, РїРѕСЃРєРѕР»СЊРєСѓ РІ РєР»Р°СЃСЃРµ EntityAI РЅРµС‚ РЅСѓР¶РЅРѕР№ РЅР°Рј С„СѓРЅРєС†РёРё SetQuantity, Р° РІ РїРѕРґРєР»Р°СЃСЃРµ ItemBase РѕРЅР° РµСЃС‚СЊ. РџСЂРµРґРјРµС‚ РїСЂРё СЌС‚РѕРј С‚Р°Рє Рё РѕСЃС‚Р°РµС‚СЃСЏ РѕРґРёРЅ Рё С‚РѕС‚ Р¶Рµ!
+						itemCasted.SetQuantity(4);											            // РћРїСЂРµРґРµР»СЏРµРј РєРѕР»РёС‡РµСЃС‚РІРѕ РґР»СЏ СЃРѕР·РґР°РЅРЅС‹С… Р±РёРЅС‚РѕРІ РєР°Рє 4 С€С‚СѓРєРё
+						SetRandomHealthItem(itemCreated);									            // Р’С‹РґР°РµРј Р±РёРЅС‚Р°Рј СЂР°РЅРґРѕРјРЅРѕРµ РєР°С‡РµСЃС‚РІРѕ, С„СѓРЅРєС†РёСЏ СЂР°Р±РѕС‚Р°РµС‚ СЃ РєР»Р°СЃСЃРѕРј EntityAI (СЃРј. РІ РєРѕРЅС„Рµ С„Р°Р№Р»Р°)
 					}
 				}
-				// переменную itemCreated не обнуляем далее, поскольку мы ее не используем в проверке ниже.
-		        itemCreated = player.GetInventory().CreateInInventory("SantasHat");            	        // Выдаем игроку головной убор
-				itemCreated = player.GetInventory().CreateInInventory("SantasBeard");            	    // Выдаем игроку маску
-		        itemCreated = player.GetInventory().CreateInInventory("OMNOGloves_Gray");		        // Выдаем игроку перчатки
-				itemCreated = player.GetInventory().CreateInInventory("TrackSuitPants_Green");		    // Выдаем игроку штаны
-				itemCreated = player.GetInventory().CreateInInventory("Sneakers_Green");	            // Выдаем игроку обувь
-				itemCreated = player.GetInventory().CreateInInventory("ChernarusSportShirt");	        // Выдаем игроку куртку				
+				// РїРµСЂРµРјРµРЅРЅСѓСЋ itemCreated РЅРµ РѕР±РЅСѓР»СЏРµРј РґР°Р»РµРµ, РїРѕСЃРєРѕР»СЊРєСѓ РјС‹ РµРµ РЅРµ РёСЃРїРѕР»СЊР·СѓРµРј РІ РїСЂРѕРІРµСЂРєРµ РЅРёР¶Рµ.
+		        itemCreated = player.GetInventory().CreateInInventory("SantasHat");            	        // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РіРѕР»РѕРІРЅРѕР№ СѓР±РѕСЂ
+				itemCreated = player.GetInventory().CreateInInventory("SantasBeard");            	    // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РјР°СЃРєСѓ
+		        itemCreated = player.GetInventory().CreateInInventory("OMNOGloves_Gray");		        // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РїРµСЂС‡Р°С‚РєРё
+				itemCreated = player.GetInventory().CreateInInventory("TrackSuitPants_Green");		    // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ С€С‚Р°РЅС‹
+				itemCreated = player.GetInventory().CreateInInventory("Sneakers_Green");	            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РѕР±СѓРІСЊ
+				itemCreated = player.GetInventory().CreateInInventory("ChernarusSportShirt");	        // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РєСѓСЂС‚РєСѓ				
 				itemCreated = NULL;
-				itemCreated = player.GetInventory().CreateInInventory("PlateCarrierVest"); 	            // Выдаем броню
-				if (itemCreated)															            // Проверяем, создаласи ли броня. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				itemCreated = player.GetInventory().CreateInInventory("PlateCarrierVest"); 	            // Р’С‹РґР°РµРј Р±СЂРѕРЅСЋ
+				if (itemCreated)															            // РџСЂРѕРІРµСЂСЏРµРј, СЃРѕР·РґР°Р»Р°СЃРё Р»Рё Р±СЂРѕРЅСЏ. Р•СЃР»Рё РѕРЅ СЃРѕР·РґР°Р»СЃСЏ, РїРµСЂРµРјРµРЅРЅР°СЏ itemCreated Р±СѓРґРµС‚ РЅРµ РїСѓСЃС‚Р° Рё РїСЂРѕРІРµСЂРєР° РїСЂРѕР№РґРµС‚
 				{                                                                                       
-					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 			    // Выдаем кобуру и крепим
-					itemCreated.GetInventory().CreateAttachment( "PlateCarrierPouches" ); 		        // Выдаем карманы и крепим
+					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 			    // Р’С‹РґР°РµРј РєРѕР±СѓСЂСѓ Рё РєСЂРµРїРёРј
+					itemCreated.GetInventory().CreateAttachment( "PlateCarrierPouches" ); 		        // Р’С‹РґР°РµРј РєР°СЂРјР°РЅС‹ Рё РєСЂРµРїРёРј
 					
 				}
 				itemCreated = NULL;
-				itemCreated = player.GetInventory().CreateInInventory("MilitaryBelt"); 	                // Выдаем ремень
-				if (itemCreated)															            // Проверяем, создался ли ремень. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				itemCreated = player.GetInventory().CreateInInventory("MilitaryBelt"); 	                // Р’С‹РґР°РµРј СЂРµРјРµРЅСЊ
+				if (itemCreated)															            // РџСЂРѕРІРµСЂСЏРµРј, СЃРѕР·РґР°Р»СЃСЏ Р»Рё СЂРµРјРµРЅСЊ. Р•СЃР»Рё РѕРЅ СЃРѕР·РґР°Р»СЃСЏ, РїРµСЂРµРјРµРЅРЅР°СЏ itemCreated Р±СѓРґРµС‚ РЅРµ РїСѓСЃС‚Р° Рё РїСЂРѕРІРµСЂРєР° РїСЂРѕР№РґРµС‚
 				{                                                                                       
-					itemCreated.GetInventory().CreateAttachment( "NylonKnifeSheath" ); 			        // Выдаем ножны и крепим
-					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 		        // Выдаем кобуру и крепим
+					itemCreated.GetInventory().CreateAttachment( "NylonKnifeSheath" ); 			        // Р’С‹РґР°РµРј РЅРѕР¶РЅС‹ Рё РєСЂРµРїРёРј
+					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 		        // Р’С‹РґР°РµРј РєРѕР±СѓСЂСѓ Рё РєСЂРµРїРёРј
 					
 				}
 				itemCreated = NULL;
-				//itemCasted = ItemBase.Cast(itemCreated);									            // Строка не нужна, закоментирована. используется для изменения класса EntityAI в ItemBase (чтобы нужные операции были доступны)
-				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		            // Выдаем игроку ножик в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("MKII");				            // Выдаем игроку MKII
-				itemCreated = player.GetInventory().CreateInInventory("Mag_MKII_10Rnd");	            // Выдаем игроку магазины к MKII
-				itemCreated = player.GetInventory().CreateInInventory("Mag_MKII_10Rnd");	            // Выдаем игроку магазины к MKII
-				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Выдаем игроку магазины к AKM в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Выдаем игроку магазины к AKM в любой свободный слот в инвентаре
-				itemCreated = NULL;															            // Обнуляем значение переменной после работы с ней, нужно если мы будем использовать ее далее
-				itemCreated = player.GetHumanInventory().CreateInHands("akm");				            // Выдаем игроку AKM в руки
-				if (itemCreated)															            // Проверяем, создался ли АКМ
+				//itemCasted = ItemBase.Cast(itemCreated);									            // РЎС‚СЂРѕРєР° РЅРµ РЅСѓР¶РЅР°, Р·Р°РєРѕРјРµРЅС‚РёСЂРѕРІР°РЅР°. РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ РёР·РјРµРЅРµРЅРёСЏ РєР»Р°СЃСЃР° EntityAI РІ ItemBase (С‡С‚РѕР±С‹ РЅСѓР¶РЅС‹Рµ РѕРїРµСЂР°С†РёРё Р±С‹Р»Рё РґРѕСЃС‚СѓРїРЅС‹)
+				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РЅРѕР¶РёРє РІ Р»СЋР±РѕР№ СЃРІРѕР±РѕРґРЅС‹Р№ СЃР»РѕС‚ РІ РёРЅРІРµРЅС‚Р°СЂРµ
+				itemCreated = player.GetInventory().CreateInInventory("MKII");				            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ MKII
+				itemCreated = player.GetInventory().CreateInInventory("Mag_MKII_10Rnd");	            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РјР°РіР°Р·РёРЅС‹ Рє MKII
+				itemCreated = player.GetInventory().CreateInInventory("Mag_MKII_10Rnd");	            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РјР°РіР°Р·РёРЅС‹ Рє MKII
+				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РјР°РіР°Р·РёРЅС‹ Рє AKM РІ Р»СЋР±РѕР№ СЃРІРѕР±РѕРґРЅС‹Р№ СЃР»РѕС‚ РІ РёРЅРІРµРЅС‚Р°СЂРµ
+				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РјР°РіР°Р·РёРЅС‹ Рє AKM РІ Р»СЋР±РѕР№ СЃРІРѕР±РѕРґРЅС‹Р№ СЃР»РѕС‚ РІ РёРЅРІРµРЅС‚Р°СЂРµ
+				itemCreated = NULL;															            // РћР±РЅСѓР»СЏРµРј Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№ РїРѕСЃР»Рµ СЂР°Р±РѕС‚С‹ СЃ РЅРµР№, РЅСѓР¶РЅРѕ РµСЃР»Рё РјС‹ Р±СѓРґРµРј РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РµРµ РґР°Р»РµРµ
+				itemCreated = player.GetHumanInventory().CreateInHands("akm");				            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ AKM РІ СЂСѓРєРё
+				if (itemCreated)															            // РџСЂРѕРІРµСЂСЏРµРј, СЃРѕР·РґР°Р»СЃСЏ Р»Рё РђРљРњ
 				{                                                                                       
-					itemCreated.GetInventory().CreateAttachment( "PSO11Optic" ); 			            // Выдаем игроку на AKM оптику ПСО 11 и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_WoodBttstck" ); 		            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_WoodHndgrd" );			            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_Suppressor" );			            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
+					itemCreated.GetInventory().CreateAttachment( "PSO11Optic" ); 			            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РЅР° AKM РѕРїС‚РёРєСѓ РџРЎРћ 11 Рё РєСЂРµРїРёРј
+					itemCreated.GetInventory().CreateAttachment( "AK_WoodBttstck" ); 		            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РЅР° AKM С†РµРІСЊРµ, РїСЂРёРєР»Р°Рґ Рё РіР»СѓС€РёС‚РµР»СЊ, Рё РєСЂРµРїРёРј
+					itemCreated.GetInventory().CreateAttachment( "AK_WoodHndgrd" );			            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РЅР° AKM С†РµРІСЊРµ, РїСЂРёРєР»Р°Рґ Рё РіР»СѓС€РёС‚РµР»СЊ, Рё РєСЂРµРїРёРј
+					itemCreated.GetInventory().CreateAttachment( "AK_Suppressor" );			            // Р’С‹РґР°РµРј РёРіСЂРѕРєСѓ РЅР° AKM С†РµРІСЊРµ, РїСЂРёРєР»Р°Рґ Рё РіР»СѓС€РёС‚РµР»СЊ, Рё РєСЂРµРїРёРј
 				}					
 				break;
 			}
 			
-			case 2: //Set with number 2  (Сет с номером 2)
+			case 2: //Set with number 2  (РЎРµС‚ СЃ РЅРѕРјРµСЂРѕРј 2)
 			{
 				break;
 			}
 			
-			case 3: //Set with number 3   (Сет с номером 3)
+			case 3: //Set with number 3   (РЎРµС‚ СЃ РЅРѕРјРµСЂРѕРј 3)
 			{
 				break;
 			}
 			
-			case 4: //Set with number 4   (Сет с номером 4)
+			case 4: //Set with number 4   (РЎРµС‚ СЃ РЅРѕРјРµСЂРѕРј 4)
 			{
 				break;
 			}
 			
-			case 5: //Set with number 5   (Сет с номером 5)
+			case 5: //Set with number 5   (РЎРµС‚ СЃ РЅРѕРјРµСЂРѕРј 5)
 			{
 				break;
 			}
 			
-			case 6: //Set with number 6   (Сет с номером 6)
+			case 6: //Set with number 6   (РЎРµС‚ СЃ РЅРѕРјРµСЂРѕРј 6)
 			{
 				break;
 			}
 			
-			default: //Default starting spawn set (Сет поумолчанию для всех игроков, если хотите назначить - добавляйте здесь!)
+			default: //Default starting spawn set (РЎРµС‚ РїРѕСѓРјРѕР»С‡Р°РЅРёСЋ РґР»СЏ РІСЃРµС… РёРіСЂРѕРєРѕРІ, РµСЃР»Рё С…РѕС‚РёС‚Рµ РЅР°Р·РЅР°С‡РёС‚СЊ - РґРѕР±Р°РІР»СЏР№С‚Рµ Р·РґРµСЃСЊ!)
 			{
-				//My_Custom_Spawn_Parameters.RemoveAllItems(player); // Чтобы удалить с персонажа уже имеющиеся стандартные стартовые шмотки раскомментировать строку
-				DefaultSets(player); // Для выдачи своих сетов по рандому всем игрокам, не прописанным в скрипте, раскомментировать эту строку
+				//My_Custom_Spawn_Parameters.RemoveAllItems(player); // Р§С‚РѕР±С‹ СѓРґР°Р»РёС‚СЊ СЃ РїРµСЂСЃРѕРЅР°Р¶Р° СѓР¶Рµ РёРјРµСЋС‰РёРµСЃСЏ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Рµ СЃС‚Р°СЂС‚РѕРІС‹Рµ С€РјРѕС‚РєРё СЂР°СЃРєРѕРјРјРµРЅС‚РёСЂРѕРІР°С‚СЊ СЃС‚СЂРѕРєСѓ
+				DefaultSets(player); // Р”Р»СЏ РІС‹РґР°С‡Рё СЃРІРѕРёС… СЃРµС‚РѕРІ РїРѕ СЂР°РЅРґРѕРјСѓ РІСЃРµРј РёРіСЂРѕРєР°Рј, РЅРµ РїСЂРѕРїРёСЃР°РЅРЅС‹Рј РІ СЃРєСЂРёРїС‚Рµ, СЂР°СЃРєРѕРјРјРµРЅС‚РёСЂРѕРІР°С‚СЊ СЌС‚Сѓ СЃС‚СЂРѕРєСѓ
 				break;
 			}
 		}
 	}
 	
-	void SetRandomHealthItem(EntityAI itemCreated) // Функция генерирует и применяет для предмета рандомное значение здоровья!
+	void SetRandomHealthItem(EntityAI itemCreated) // Р¤СѓРЅРєС†РёСЏ РіРµРЅРµСЂРёСЂСѓРµС‚ Рё РїСЂРёРјРµРЅСЏРµС‚ РґР»СЏ РїСЂРµРґРјРµС‚Р° СЂР°РЅРґРѕРјРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ Р·РґРѕСЂРѕРІСЊСЏ!
 	{
 		if ( itemCreated )
 		{
@@ -115,15 +115,15 @@ class StartSetsPlayersConfig
 		}
 	}
 	
-	void DefaultSets(PlayerBase player) // Функция выдает сеты игрокам, не прописанным в конфигурации скрипта!!!
+	void DefaultSets(PlayerBase player) // Р¤СѓРЅРєС†РёСЏ РІС‹РґР°РµС‚ СЃРµС‚С‹ РёРіСЂРѕРєР°Рј, РЅРµ РїСЂРѕРїРёСЃР°РЅРЅС‹Рј РІ РєРѕРЅС„РёРіСѓСЂР°С†РёРё СЃРєСЂРёРїС‚Р°!!!
 	{
 		EntityAI itemCreated = NULL;
 		EntityAI itemCreated1 = NULL;
 		ItemBase itemCasted = NULL;
 		
-		// ниже пример, если вам нужно задать свои точки спавна для всех игроков. Этот код можно также использовать и для каждого сета индивидуально!
-		// Код закомментирован, если это надо - раскомментируйте!
-		// начало кода точек спавна игрока
+		// РЅРёР¶Рµ РїСЂРёРјРµСЂ, РµСЃР»Рё РІР°Рј РЅСѓР¶РЅРѕ Р·Р°РґР°С‚СЊ СЃРІРѕРё С‚РѕС‡РєРё СЃРїР°РІРЅР° РґР»СЏ РІСЃРµС… РёРіСЂРѕРєРѕРІ. Р­С‚РѕС‚ РєРѕРґ РјРѕР¶РЅРѕ С‚Р°РєР¶Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ Рё РґР»СЏ РєР°Р¶РґРѕРіРѕ СЃРµС‚Р° РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕ!
+		// РљРѕРґ Р·Р°РєРѕРјРјРµРЅС‚РёСЂРѕРІР°РЅ, РµСЃР»Рё СЌС‚Рѕ РЅР°РґРѕ - СЂР°СЃРєРѕРјРјРµРЅС‚РёСЂСѓР№С‚Рµ!
+		// РЅР°С‡Р°Р»Рѕ РєРѕРґР° С‚РѕС‡РµРє СЃРїР°РІРЅР° РёРіСЂРѕРєР°
 		/*
 		private array <vector>  spawnpoints = {"7500 0 7500",
 			"7500 0 7500","7500 0 7500",
@@ -131,190 +131,190 @@ class StartSetsPlayersConfig
 		private vector selected_spawnpoint = spawnpoints.GetRandomElement();
 		player.SetPosition(selected_spawnpoint);
 		*/
-		// конец кода точек спавна игрока
+		// РєРѕРЅРµС† РєРѕРґР° С‚РѕС‡РµРє СЃРїР°РІРЅР° РёРіСЂРѕРєР°
 		
-		private int random_set_number = Math.RandomIntInclusive(1,3); // генерируем рандом номер сета от 1 до 6 включительно (по значениям блоков case ниже)
-		switch( random_set_number ) //Раздаем лут (можно использовать значения от 1 и выше, только не 0 и не -1)
+		private int random_set_number = Math.RandomIntInclusive(1,3); // РіРµРЅРµСЂРёСЂСѓРµРј СЂР°РЅРґРѕРј РЅРѕРјРµСЂ СЃРµС‚Р° РѕС‚ 1 РґРѕ 6 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ (РїРѕ Р·РЅР°С‡РµРЅРёСЏРј Р±Р»РѕРєРѕРІ case РЅРёР¶Рµ)
+		switch( random_set_number ) //Р Р°Р·РґР°РµРј Р»СѓС‚ (РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ 1 Рё РІС‹С€Рµ, С‚РѕР»СЊРєРѕ РЅРµ 0 Рё РЅРµ -1)
 		{
-			case 1: //Set with number 1 (Сет с номером 1)
+			case 1: //Set with number 1 (Г‘ГҐГІ Г± Г­Г®Г¬ГҐГ°Г®Г¬ 1)
 			{
-				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Чтобы удалить с персонажа уже имеющиеся стандартные стартовые шмотки раскомментировать строку
-				itemCreated = player.GetInventory().CreateInInventory("MountainBag_Green"); 	        // Выдаем рюкзак и записываем в переменную itemCreated
-				if (itemCreated)															            // Проверяем, создался ли рюкзак. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Г—ГІГ®ГЎГ» ГіГ¤Г Г«ГЁГІГј Г± ГЇГҐГ°Г±Г®Г­Г Г¦Г  ГіГ¦ГҐ ГЁГ¬ГҐГѕГ№ГЁГҐГ±Гї Г±ГІГ Г­Г¤Г Г°ГІГ­Г»ГҐ Г±ГІГ Г°ГІГ®ГўГ»ГҐ ГёГ¬Г®ГІГЄГЁ Г°Г Г±ГЄГ®Г¬Г¬ГҐГ­ГІГЁГ°Г®ГўГ ГІГј Г±ГІГ°Г®ГЄГі
+				itemCreated = player.GetInventory().CreateInInventory("MountainBag_Green"); 	        // Г‚Г»Г¤Г ГҐГ¬ Г°ГѕГЄГ§Г ГЄ ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated
+				if (itemCreated)															            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г±Гї Г«ГЁ Г°ГѕГЄГ§Г ГЄ. Г…Г±Г«ГЁ Г®Г­ Г±Г®Г§Г¤Г Г«Г±Гї, ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї itemCreated ГЎГіГ¤ГҐГІ Г­ГҐ ГЇГіГ±ГІГ  ГЁ ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®Г©Г¤ГҐГІ
 				{                                                                                       
-					SetRandomHealthItem(itemCreated);										            // Выдаем рюкзаку рандомное качество
-					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Apple");	            // Добавляем в инвентарь созданного рюкзака яблоко и записываем в переменную itemCreated1
-					if (itemCreated1)														            // Проверяем, создалось ли яблоко в рюкзаке, яблоко у нас с переменной itemCreated1
+					SetRandomHealthItem(itemCreated);										            // Г‚Г»Г¤Г ГҐГ¬ Г°ГѕГЄГ§Г ГЄГі Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Apple");	            // Г„Г®ГЎГ ГўГ«ГїГҐГ¬ Гў ГЁГ­ГўГҐГ­ГІГ Г°Гј Г±Г®Г§Г¤Г Г­Г­Г®ГЈГ® Г°ГѕГЄГ§Г ГЄГ  ГїГЎГ«Г®ГЄГ® ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated1
+					if (itemCreated1)														            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г®Г±Гј Г«ГЁ ГїГЎГ«Г®ГЄГ® Гў Г°ГѕГЄГ§Г ГЄГҐ, ГїГЎГ«Г®ГЄГ® Гі Г­Г Г± Г± ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© itemCreated1
 					{                                                                                   
-						SetRandomHealthItem(itemCreated1);									            // Выдаем яблоку рандомное качество
+						SetRandomHealthItem(itemCreated1);									            // Г‚Г»Г¤Г ГҐГ¬ ГїГЎГ«Г®ГЄГі Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®
 					}                                                                                   
-					itemCreated1 = NULL;													            // Обнуляем значение переменной после работы с ней, чтобы следующая проверка прошла корректно
-					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");		            // Выдаем игроку бинты в рюкзак и записываем в переменную itemCreated1
-					if (itemCreated1)														            // Проверяем, создались ли бинты в рюкзаке, они у нас с переменной itemCreated1
+					itemCreated1 = NULL;													            // ГЋГЎГ­ГіГ«ГїГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© ГЇГ®Г±Г«ГҐ Г°Г ГЎГ®ГІГ» Г± Г­ГҐГ©, Г·ГІГ®ГЎГ» Г±Г«ГҐГ¤ГіГѕГ№Г Гї ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®ГёГ«Г  ГЄГ®Г°Г°ГҐГЄГІГ­Г®
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЎГЁГ­ГІГ» Гў Г°ГѕГЄГ§Г ГЄ ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated1
+					if (itemCreated1)														            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«ГЁГ±Гј Г«ГЁ ГЎГЁГ­ГІГ» Гў Г°ГѕГЄГ§Г ГЄГҐ, Г®Г­ГЁ Гі Г­Г Г± Г± ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© itemCreated1
 					{                                                                                   
-						itemCasted = ItemBase.Cast(itemCreated1);							            // Выполняем преобразование в другой класс для работы с нужной нам функцией, поскольку в классе EntityAI нет нужной нам функции SetQuantity, а в подклассе ItemBase она есть. Предмет при этом так и остается один и тот же!
-						itemCasted.SetQuantity(4);											            // Определяем количество для созданных бинтов как 4 штуки
-						SetRandomHealthItem(itemCreated);									            // Выдаем бинтам рандомное качество, функция работает с классом EntityAI (см. в конфе файла)
+						itemCasted = ItemBase.Cast(itemCreated1);							            // Г‚Г»ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­ГЁГҐ Гў Г¤Г°ГіГЈГ®Г© ГЄГ«Г Г±Г± Г¤Г«Гї Г°Г ГЎГ®ГІГ» Г± Г­ГіГ¦Г­Г®Г© Г­Г Г¬ ГґГіГ­ГЄГ¶ГЁГҐГ©, ГЇГ®Г±ГЄГ®Г«ГјГЄГі Гў ГЄГ«Г Г±Г±ГҐ EntityAI Г­ГҐГІ Г­ГіГ¦Г­Г®Г© Г­Г Г¬ ГґГіГ­ГЄГ¶ГЁГЁ SetQuantity, Г  Гў ГЇГ®Г¤ГЄГ«Г Г±Г±ГҐ ItemBase Г®Г­Г  ГҐГ±ГІГј. ГЏГ°ГҐГ¤Г¬ГҐГІ ГЇГ°ГЁ ГЅГІГ®Г¬ ГІГ ГЄ ГЁ Г®Г±ГІГ ГҐГІГ±Гї Г®Г¤ГЁГ­ ГЁ ГІГ®ГІ Г¦ГҐ!
+						itemCasted.SetQuantity(4);											            // ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГ¬ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г¤Г«Гї Г±Г®Г§Г¤Г Г­Г­Г»Гµ ГЎГЁГ­ГІГ®Гў ГЄГ ГЄ 4 ГёГІГіГЄГЁ
+						SetRandomHealthItem(itemCreated);									            // Г‚Г»Г¤Г ГҐГ¬ ГЎГЁГ­ГІГ Г¬ Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®, ГґГіГ­ГЄГ¶ГЁГї Г°Г ГЎГ®ГІГ ГҐГІ Г± ГЄГ«Г Г±Г±Г®Г¬ EntityAI (Г±Г¬. Гў ГЄГ®Г­ГґГҐ ГґГ Г©Г«Г )
 					}
 				}
-				// переменную itemCreated не обнуляем далее, поскольку мы ее не используем в проверке ниже.
-		        itemCreated = player.GetInventory().CreateInInventory("SantasHat");            	        // Выдаем игроку головной убор
-				itemCreated = player.GetInventory().CreateInInventory("SantasBeard");            	    // Выдаем игроку маску
-		        itemCreated = player.GetInventory().CreateInInventory("OMNOGloves_Gray");		        // Выдаем игроку перчатки
-				itemCreated = player.GetInventory().CreateInInventory("TrackSuitPants_Green");		    // Выдаем игроку штаны
-				itemCreated = player.GetInventory().CreateInInventory("Sneakers_Green");	            // Выдаем игроку обувь
-				itemCreated = player.GetInventory().CreateInInventory("ChernarusSportShirt");	        // Выдаем игроку куртку				
+				// ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated Г­ГҐ Г®ГЎГ­ГіГ«ГїГҐГ¬ Г¤Г Г«ГҐГҐ, ГЇГ®Г±ГЄГ®Г«ГјГЄГі Г¬Г» ГҐГҐ Г­ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬ Гў ГЇГ°Г®ГўГҐГ°ГЄГҐ Г­ГЁГ¦ГҐ.
+		        itemCreated = player.GetInventory().CreateInInventory("SantasHat");            	        // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЈГ®Г«Г®ГўГ­Г®Г© ГіГЎГ®Г°
+				itemCreated = player.GetInventory().CreateInInventory("SantasBeard");            	    // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г Г±ГЄГі
+		        itemCreated = player.GetInventory().CreateInInventory("OMNOGloves_Gray");		        // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЇГҐГ°Г·Г ГІГЄГЁ
+				itemCreated = player.GetInventory().CreateInInventory("TrackSuitPants_Green");		    // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГёГІГ Г­Г»
+				itemCreated = player.GetInventory().CreateInInventory("Sneakers_Green");	            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г®ГЎГіГўГј
+				itemCreated = player.GetInventory().CreateInInventory("ChernarusSportShirt");	        // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЄГіГ°ГІГЄГі				
 				itemCreated = NULL;
-				itemCreated = player.GetInventory().CreateInInventory("PlateCarrierVest"); 	            // Выдаем броню
-				if (itemCreated)															            // Проверяем, создаласи ли броня. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				itemCreated = player.GetInventory().CreateInInventory("PlateCarrierVest"); 	            // Г‚Г»Г¤Г ГҐГ¬ ГЎГ°Г®Г­Гѕ
+				if (itemCreated)															            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г Г±ГЁ Г«ГЁ ГЎГ°Г®Г­Гї. Г…Г±Г«ГЁ Г®Г­ Г±Г®Г§Г¤Г Г«Г±Гї, ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї itemCreated ГЎГіГ¤ГҐГІ Г­ГҐ ГЇГіГ±ГІГ  ГЁ ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®Г©Г¤ГҐГІ
 				{                                                                                       
-					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 			    // Выдаем кобуру и крепим
-					itemCreated.GetInventory().CreateAttachment( "PlateCarrierPouches" ); 		        // Выдаем карманы и крепим
+					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 			    // Г‚Г»Г¤Г ГҐГ¬ ГЄГ®ГЎГіГ°Гі ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "PlateCarrierPouches" ); 		        // Г‚Г»Г¤Г ГҐГ¬ ГЄГ Г°Г¬Г Г­Г» ГЁ ГЄГ°ГҐГЇГЁГ¬
 					
 				}
 				itemCreated = NULL;
-				itemCreated = player.GetInventory().CreateInInventory("MilitaryBelt"); 	                // Выдаем ремень
-				if (itemCreated)															            // Проверяем, создался ли ремень. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				itemCreated = player.GetInventory().CreateInInventory("MilitaryBelt"); 	                // Г‚Г»Г¤Г ГҐГ¬ Г°ГҐГ¬ГҐГ­Гј
+				if (itemCreated)															            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г±Гї Г«ГЁ Г°ГҐГ¬ГҐГ­Гј. Г…Г±Г«ГЁ Г®Г­ Г±Г®Г§Г¤Г Г«Г±Гї, ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї itemCreated ГЎГіГ¤ГҐГІ Г­ГҐ ГЇГіГ±ГІГ  ГЁ ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®Г©Г¤ГҐГІ
 				{                                                                                       
-					itemCreated.GetInventory().CreateAttachment( "NylonKnifeSheath" ); 			        // Выдаем ножны и крепим
-					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 		        // Выдаем кобуру и крепим
+					itemCreated.GetInventory().CreateAttachment( "NylonKnifeSheath" ); 			        // Г‚Г»Г¤Г ГҐГ¬ Г­Г®Г¦Г­Г» ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 		        // Г‚Г»Г¤Г ГҐГ¬ ГЄГ®ГЎГіГ°Гі ГЁ ГЄГ°ГҐГЇГЁГ¬
 					
 				}
 				itemCreated = NULL;
-				//itemCasted = ItemBase.Cast(itemCreated);									            // Строка не нужна, закоментирована. используется для изменения класса EntityAI в ItemBase (чтобы нужные операции были доступны)
-				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		            // Выдаем игроку ножик в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("MKII");				            // Выдаем игроку MKII
-				itemCreated = player.GetInventory().CreateInInventory("Mag_MKII_10Rnd");	            // Выдаем игроку магазины к MKII
-				itemCreated = player.GetInventory().CreateInInventory("Mag_MKII_10Rnd");	            // Выдаем игроку магазины к MKII
-				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Выдаем игроку магазины к AKM в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Выдаем игроку магазины к AKM в любой свободный слот в инвентаре
-				itemCreated = NULL;															            // Обнуляем значение переменной после работы с ней, нужно если мы будем использовать ее далее
-				itemCreated = player.GetHumanInventory().CreateInHands("akm");				            // Выдаем игроку AKM в руки
-				if (itemCreated)															            // Проверяем, создался ли АКМ
+				//itemCasted = ItemBase.Cast(itemCreated);									            // Г‘ГІГ°Г®ГЄГ  Г­ГҐ Г­ГіГ¦Г­Г , Г§Г ГЄГ®Г¬ГҐГ­ГІГЁГ°Г®ГўГ Г­Г . ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГІГ±Гї Г¤Г«Гї ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї ГЄГ«Г Г±Г±Г  EntityAI Гў ItemBase (Г·ГІГ®ГЎГ» Г­ГіГ¦Г­Г»ГҐ Г®ГЇГҐГ°Г Г¶ГЁГЁ ГЎГ»Г«ГЁ Г¤Г®Г±ГІГіГЇГ­Г»)
+				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г®Г¦ГЁГЄ Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("MKII");				            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі MKII
+				itemCreated = player.GetInventory().CreateInInventory("Mag_MKII_10Rnd");	            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ MKII
+				itemCreated = player.GetInventory().CreateInInventory("Mag_MKII_10Rnd");	            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ MKII
+				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ AKM Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ AKM Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = NULL;															            // ГЋГЎГ­ГіГ«ГїГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© ГЇГ®Г±Г«ГҐ Г°Г ГЎГ®ГІГ» Г± Г­ГҐГ©, Г­ГіГ¦Г­Г® ГҐГ±Г«ГЁ Г¬Г» ГЎГіГ¤ГҐГ¬ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГҐГҐ Г¤Г Г«ГҐГҐ
+				itemCreated = player.GetHumanInventory().CreateInHands("akm");				            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі AKM Гў Г°ГіГЄГЁ
+				if (itemCreated)															            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г±Гї Г«ГЁ ГЂГЉГЊ
 				{                                                                                       
-					itemCreated.GetInventory().CreateAttachment( "PSO11Optic" ); 			            // Выдаем игроку на AKM оптику ПСО 11 и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_WoodBttstck" ); 		            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_WoodHndgrd" );			            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_Suppressor" );			            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
+					itemCreated.GetInventory().CreateAttachment( "PSO11Optic" ); 			            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г®ГЇГІГЁГЄГі ГЏГ‘ГЋ 11 ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_WoodBttstck" ); 		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_WoodHndgrd" );			            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_Suppressor" );			            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
 				}					
 				break;
 			}
 			
-			case 2: //Set with number 2  (Сет с номером 2)
+			case 2: //Set with number 2  (Г‘ГҐГІ Г± Г­Г®Г¬ГҐГ°Г®Г¬ 2)
 			{
-				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Чтобы удалить с персонажа уже имеющиеся стандартные стартовые шмотки раскомментировать строку
-				itemCreated = player.GetInventory().CreateInInventory("MountainBag_Green"); 	            // Выдаем рюкзак и записываем в переменную itemCreated
-				if (itemCreated)															            // Проверяем, создался ли рюкзак. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Г—ГІГ®ГЎГ» ГіГ¤Г Г«ГЁГІГј Г± ГЇГҐГ°Г±Г®Г­Г Г¦Г  ГіГ¦ГҐ ГЁГ¬ГҐГѕГ№ГЁГҐГ±Гї Г±ГІГ Г­Г¤Г Г°ГІГ­Г»ГҐ Г±ГІГ Г°ГІГ®ГўГ»ГҐ ГёГ¬Г®ГІГЄГЁ Г°Г Г±ГЄГ®Г¬Г¬ГҐГ­ГІГЁГ°Г®ГўГ ГІГј Г±ГІГ°Г®ГЄГі
+				itemCreated = player.GetInventory().CreateInInventory("MountainBag_Green"); 	            // Г‚Г»Г¤Г ГҐГ¬ Г°ГѕГЄГ§Г ГЄ ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated
+				if (itemCreated)															            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г±Гї Г«ГЁ Г°ГѕГЄГ§Г ГЄ. Г…Г±Г«ГЁ Г®Г­ Г±Г®Г§Г¤Г Г«Г±Гї, ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї itemCreated ГЎГіГ¤ГҐГІ Г­ГҐ ГЇГіГ±ГІГ  ГЁ ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®Г©Г¤ГҐГІ
 				{                                                                                       
-					SetRandomHealthItem(itemCreated);										            // Выдаем рюкзаку рандомное качество
-					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Apple");	            // Добавляем в инвентарь созданного рюкзака яблоко и записываем в переменную itemCreated1
-					if (itemCreated1)														            // Проверяем, создалось ли яблоко в рюкзаке, яблоко у нас с переменной itemCreated1
+					SetRandomHealthItem(itemCreated);										            // Г‚Г»Г¤Г ГҐГ¬ Г°ГѕГЄГ§Г ГЄГі Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Apple");	            // Г„Г®ГЎГ ГўГ«ГїГҐГ¬ Гў ГЁГ­ГўГҐГ­ГІГ Г°Гј Г±Г®Г§Г¤Г Г­Г­Г®ГЈГ® Г°ГѕГЄГ§Г ГЄГ  ГїГЎГ«Г®ГЄГ® ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated1
+					if (itemCreated1)														            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г®Г±Гј Г«ГЁ ГїГЎГ«Г®ГЄГ® Гў Г°ГѕГЄГ§Г ГЄГҐ, ГїГЎГ«Г®ГЄГ® Гі Г­Г Г± Г± ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© itemCreated1
 					{                                                                                   
-						SetRandomHealthItem(itemCreated1);									            // Выдаем яблоку рандомное качество
+						SetRandomHealthItem(itemCreated1);									            // Г‚Г»Г¤Г ГҐГ¬ ГїГЎГ«Г®ГЄГі Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®
 					}                                                                                   
-					itemCreated1 = NULL;													            // Обнуляем значение переменной после работы с ней, чтобы следующая проверка прошла корректно
-					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");		            // Выдаем игроку бинты в рюкзак и записываем в переменную itemCreated1
-					if (itemCreated1)														            // Проверяем, создались ли бинты в рюкзаке, они у нас с переменной itemCreated1
+					itemCreated1 = NULL;													            // ГЋГЎГ­ГіГ«ГїГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© ГЇГ®Г±Г«ГҐ Г°Г ГЎГ®ГІГ» Г± Г­ГҐГ©, Г·ГІГ®ГЎГ» Г±Г«ГҐГ¤ГіГѕГ№Г Гї ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®ГёГ«Г  ГЄГ®Г°Г°ГҐГЄГІГ­Г®
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЎГЁГ­ГІГ» Гў Г°ГѕГЄГ§Г ГЄ ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated1
+					if (itemCreated1)														            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«ГЁГ±Гј Г«ГЁ ГЎГЁГ­ГІГ» Гў Г°ГѕГЄГ§Г ГЄГҐ, Г®Г­ГЁ Гі Г­Г Г± Г± ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© itemCreated1
 					{                                                                                   
-						itemCasted = ItemBase.Cast(itemCreated1);							            // Выполняем преобразование в другой класс для работы с нужной нам функцией, поскольку в классе EntityAI нет нужной нам функции SetQuantity, а в подклассе ItemBase она есть. Предмет при этом так и остается один и тот же!
-						itemCasted.SetQuantity(4);											            // Определяем количество для созданных бинтов как 4 штуки
-						SetRandomHealthItem(itemCreated);									            // Выдаем бинтам рандомное качество, функция работает с классом EntityAI (см. в конфе файла)
+						itemCasted = ItemBase.Cast(itemCreated1);							            // Г‚Г»ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­ГЁГҐ Гў Г¤Г°ГіГЈГ®Г© ГЄГ«Г Г±Г± Г¤Г«Гї Г°Г ГЎГ®ГІГ» Г± Г­ГіГ¦Г­Г®Г© Г­Г Г¬ ГґГіГ­ГЄГ¶ГЁГҐГ©, ГЇГ®Г±ГЄГ®Г«ГјГЄГі Гў ГЄГ«Г Г±Г±ГҐ EntityAI Г­ГҐГІ Г­ГіГ¦Г­Г®Г© Г­Г Г¬ ГґГіГ­ГЄГ¶ГЁГЁ SetQuantity, Г  Гў ГЇГ®Г¤ГЄГ«Г Г±Г±ГҐ ItemBase Г®Г­Г  ГҐГ±ГІГј. ГЏГ°ГҐГ¤Г¬ГҐГІ ГЇГ°ГЁ ГЅГІГ®Г¬ ГІГ ГЄ ГЁ Г®Г±ГІГ ГҐГІГ±Гї Г®Г¤ГЁГ­ ГЁ ГІГ®ГІ Г¦ГҐ!
+						itemCasted.SetQuantity(4);											            // ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГ¬ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г¤Г«Гї Г±Г®Г§Г¤Г Г­Г­Г»Гµ ГЎГЁГ­ГІГ®Гў ГЄГ ГЄ 4 ГёГІГіГЄГЁ
+						SetRandomHealthItem(itemCreated);									            // Г‚Г»Г¤Г ГҐГ¬ ГЎГЁГ­ГІГ Г¬ Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®, ГґГіГ­ГЄГ¶ГЁГї Г°Г ГЎГ®ГІГ ГҐГІ Г± ГЄГ«Г Г±Г±Г®Г¬ EntityAI (Г±Г¬. Гў ГЄГ®Г­ГґГҐ ГґГ Г©Г«Г )
 					}
 				}
-				// переменную itemCreated не обнуляем далее, поскольку мы ее не используем в проверке ниже.
-		        itemCreated = player.GetInventory().CreateInInventory("SantasHat");            	        // Выдаем игроку головной убор
-				itemCreated = player.GetInventory().CreateInInventory("SantasBeard");            	    // Выдаем игроку маску
-		        itemCreated = player.GetInventory().CreateInInventory("OMNOGloves_Gray");		        // Выдаем игроку перчатки
-				itemCreated = player.GetInventory().CreateInInventory("TrackSuitPants_Green");		    // Выдаем игроку штаны
-				itemCreated = player.GetInventory().CreateInInventory("Sneakers_Green");	            // Выдаем игроку обувь
-				itemCreated = player.GetInventory().CreateInInventory("ChernarusSportShirt");	        // Выдаем игроку куртку				
+				// ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated Г­ГҐ Г®ГЎГ­ГіГ«ГїГҐГ¬ Г¤Г Г«ГҐГҐ, ГЇГ®Г±ГЄГ®Г«ГјГЄГі Г¬Г» ГҐГҐ Г­ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬ Гў ГЇГ°Г®ГўГҐГ°ГЄГҐ Г­ГЁГ¦ГҐ.
+		        itemCreated = player.GetInventory().CreateInInventory("SantasHat");            	        // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЈГ®Г«Г®ГўГ­Г®Г© ГіГЎГ®Г°
+				itemCreated = player.GetInventory().CreateInInventory("SantasBeard");            	    // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г Г±ГЄГі
+		        itemCreated = player.GetInventory().CreateInInventory("OMNOGloves_Gray");		        // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЇГҐГ°Г·Г ГІГЄГЁ
+				itemCreated = player.GetInventory().CreateInInventory("TrackSuitPants_Green");		    // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГёГІГ Г­Г»
+				itemCreated = player.GetInventory().CreateInInventory("Sneakers_Green");	            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г®ГЎГіГўГј
+				itemCreated = player.GetInventory().CreateInInventory("ChernarusSportShirt");	        // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЄГіГ°ГІГЄГі				
 				itemCreated = NULL;
-				itemCreated = player.GetInventory().CreateInInventory("PlateCarrierVest"); 	            // Выдаем броню
-				if (itemCreated)															            // Проверяем, создаласи ли броня. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				itemCreated = player.GetInventory().CreateInInventory("PlateCarrierVest"); 	            // Г‚Г»Г¤Г ГҐГ¬ ГЎГ°Г®Г­Гѕ
+				if (itemCreated)															            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г Г±ГЁ Г«ГЁ ГЎГ°Г®Г­Гї. Г…Г±Г«ГЁ Г®Г­ Г±Г®Г§Г¤Г Г«Г±Гї, ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї itemCreated ГЎГіГ¤ГҐГІ Г­ГҐ ГЇГіГ±ГІГ  ГЁ ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®Г©Г¤ГҐГІ
 				{                                                                                       
-					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 			    // Выдаем кобуру и крепим
-					itemCreated.GetInventory().CreateAttachment( "PlateCarrierPouches" ); 		        // Выдаем карманы и крепим
+					itemCreated.GetInventory().CreateAttachment( "PlateCarrierHolster" ); 			    // Г‚Г»Г¤Г ГҐГ¬ ГЄГ®ГЎГіГ°Гі ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "PlateCarrierPouches" ); 		        // Г‚Г»Г¤Г ГҐГ¬ ГЄГ Г°Г¬Г Г­Г» ГЁ ГЄГ°ГҐГЇГЁГ¬
 					
 				}
 				itemCreated = NULL;
-				//itemCasted = ItemBase.Cast(itemCreated);									            // Строка не нужна, закоментирована. используется для изменения класса EntityAI в ItemBase (чтобы нужные операции были доступны)
-				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		            // Выдаем игроку ножик в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Выдаем игроку магазины к AKM в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Выдаем игроку магазины к AKM в любой свободный слот в инвентаре
-				itemCreated = NULL;															            // Обнуляем значение переменной после работы с ней, нужно если мы будем использовать ее далее
-				itemCreated = player.GetHumanInventory().CreateInHands("akm");				            // Выдаем игроку AKM в руки
-				if (itemCreated)															            // Проверяем, создался ли АКМ
+				//itemCasted = ItemBase.Cast(itemCreated);									            // Г‘ГІГ°Г®ГЄГ  Г­ГҐ Г­ГіГ¦Г­Г , Г§Г ГЄГ®Г¬ГҐГ­ГІГЁГ°Г®ГўГ Г­Г . ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГІГ±Гї Г¤Г«Гї ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї ГЄГ«Г Г±Г±Г  EntityAI Гў ItemBase (Г·ГІГ®ГЎГ» Г­ГіГ¦Г­Г»ГҐ Г®ГЇГҐГ°Г Г¶ГЁГЁ ГЎГ»Г«ГЁ Г¤Г®Г±ГІГіГЇГ­Г»)
+				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г®Г¦ГЁГЄ Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ AKM Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ AKM Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = NULL;															            // ГЋГЎГ­ГіГ«ГїГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© ГЇГ®Г±Г«ГҐ Г°Г ГЎГ®ГІГ» Г± Г­ГҐГ©, Г­ГіГ¦Г­Г® ГҐГ±Г«ГЁ Г¬Г» ГЎГіГ¤ГҐГ¬ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГҐГҐ Г¤Г Г«ГҐГҐ
+				itemCreated = player.GetHumanInventory().CreateInHands("akm");				            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі AKM Гў Г°ГіГЄГЁ
+				if (itemCreated)															            // ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г±Гї Г«ГЁ ГЂГЉГЊ
 				{                                                                                       
-					itemCreated.GetInventory().CreateAttachment( "PSO11Optic" ); 			            // Выдаем игроку на AKM оптику ПСО 11 и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_WoodBttstck" ); 		            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_WoodHndgrd" );			            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_Suppressor" );			            // Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
+					itemCreated.GetInventory().CreateAttachment( "PSO11Optic" ); 			            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г®ГЇГІГЁГЄГі ГЏГ‘ГЋ 11 ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_WoodBttstck" ); 		            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_WoodHndgrd" );			            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_Suppressor" );			            // Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
 				}					
 				break;
 			}
 			
-			case 3: //Set with number 3   (Сет с номером 3)
+			case 3: //Set with number 3   (Г‘ГҐГІ Г± Г­Г®Г¬ГҐГ°Г®Г¬ 3)
 			{
-				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Чтобы удалить с персонажа уже имеющиеся стандартные стартовые шмотки раскомментировать строку
-				itemCreated = player.GetInventory().CreateInInventory("CoyoteBag_Green"); 	// Выдаем рюкзак и записываем в переменную itemCreated
-				if (itemCreated)															// Проверяем, создался ли рюкзак. Если он создался, переменная itemCreated будет не пуста и проверка пройдет
+				My_Custom_Spawn_Parameters.RemoveAllItems(player); // Г—ГІГ®ГЎГ» ГіГ¤Г Г«ГЁГІГј Г± ГЇГҐГ°Г±Г®Г­Г Г¦Г  ГіГ¦ГҐ ГЁГ¬ГҐГѕГ№ГЁГҐГ±Гї Г±ГІГ Г­Г¤Г Г°ГІГ­Г»ГҐ Г±ГІГ Г°ГІГ®ГўГ»ГҐ ГёГ¬Г®ГІГЄГЁ Г°Г Г±ГЄГ®Г¬Г¬ГҐГ­ГІГЁГ°Г®ГўГ ГІГј Г±ГІГ°Г®ГЄГі
+				itemCreated = player.GetInventory().CreateInInventory("CoyoteBag_Green"); 	// Г‚Г»Г¤Г ГҐГ¬ Г°ГѕГЄГ§Г ГЄ ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated
+				if (itemCreated)															// ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г±Гї Г«ГЁ Г°ГѕГЄГ§Г ГЄ. Г…Г±Г«ГЁ Г®Г­ Г±Г®Г§Г¤Г Г«Г±Гї, ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї itemCreated ГЎГіГ¤ГҐГІ Г­ГҐ ГЇГіГ±ГІГ  ГЁ ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®Г©Г¤ГҐГІ
 				{
-					SetRandomHealthItem(itemCreated);												// Выдаем рюкзаку рандомное качество
-					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Apple");			// Добавляем в инвентарь созданного рюкзака яблоко и записываем в переменную itemCreated1
-					if (itemCreated1)																// Проверяем, создалось ли яблоко в рюкзаке, яблоко у нас с переменной itemCreated1
+					SetRandomHealthItem(itemCreated);												// Г‚Г»Г¤Г ГҐГ¬ Г°ГѕГЄГ§Г ГЄГі Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Apple");			// Г„Г®ГЎГ ГўГ«ГїГҐГ¬ Гў ГЁГ­ГўГҐГ­ГІГ Г°Гј Г±Г®Г§Г¤Г Г­Г­Г®ГЈГ® Г°ГѕГЄГ§Г ГЄГ  ГїГЎГ«Г®ГЄГ® ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated1
+					if (itemCreated1)																// ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г®Г±Гј Г«ГЁ ГїГЎГ«Г®ГЄГ® Гў Г°ГѕГЄГ§Г ГЄГҐ, ГїГЎГ«Г®ГЄГ® Гі Г­Г Г± Г± ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© itemCreated1
 					{
-						SetRandomHealthItem(itemCreated1);												// Выдаем яблоку рандомное качество
+						SetRandomHealthItem(itemCreated1);												// Г‚Г»Г¤Г ГҐГ¬ ГїГЎГ«Г®ГЄГі Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®
 					}
-					itemCreated1 = NULL;															// Обнуляем значение переменной после работы с ней, чтобы следующая проверка прошла корректно
-					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");				// Выдаем игроку бинты в рюкзак и записываем в переменную itemCreated1
-					if (itemCreated1)																// Проверяем, создались ли бинты в рюкзаке, они у нас с переменной itemCreated1
+					itemCreated1 = NULL;															// ГЋГЎГ­ГіГ«ГїГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© ГЇГ®Г±Г«ГҐ Г°Г ГЎГ®ГІГ» Г± Г­ГҐГ©, Г·ГІГ®ГЎГ» Г±Г«ГҐГ¤ГіГѕГ№Г Гї ГЇГ°Г®ГўГҐГ°ГЄГ  ГЇГ°Г®ГёГ«Г  ГЄГ®Г°Г°ГҐГЄГІГ­Г®
+					itemCreated1 = itemCreated.GetInventory().CreateInInventory("Rag");				// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЎГЁГ­ГІГ» Гў Г°ГѕГЄГ§Г ГЄ ГЁ Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Гў ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated1
+					if (itemCreated1)																// ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«ГЁГ±Гј Г«ГЁ ГЎГЁГ­ГІГ» Гў Г°ГѕГЄГ§Г ГЄГҐ, Г®Г­ГЁ Гі Г­Г Г± Г± ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© itemCreated1
 					{
-						itemCasted = ItemBase.Cast(itemCreated1);										// Выполняем преобразование в другой класс для работы с нужной нам функцией, поскольку в классе EntityAI нет нужной нам функции SetQuantity, а в подклассе ItemBase она есть. Предмет при этом так и остается один и тот же!
-						itemCasted.SetQuantity(4);														// Определяем количество для созданных бинтов как 4 штуки
-						SetRandomHealthItem(itemCreated);												// Выдаем бинтам рандомное качество, функция работает с классом EntityAI (см. в конфе файла)
+						itemCasted = ItemBase.Cast(itemCreated1);										// Г‚Г»ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ°ГҐГ®ГЎГ°Г Г§Г®ГўГ Г­ГЁГҐ Гў Г¤Г°ГіГЈГ®Г© ГЄГ«Г Г±Г± Г¤Г«Гї Г°Г ГЎГ®ГІГ» Г± Г­ГіГ¦Г­Г®Г© Г­Г Г¬ ГґГіГ­ГЄГ¶ГЁГҐГ©, ГЇГ®Г±ГЄГ®Г«ГјГЄГі Гў ГЄГ«Г Г±Г±ГҐ EntityAI Г­ГҐГІ Г­ГіГ¦Г­Г®Г© Г­Г Г¬ ГґГіГ­ГЄГ¶ГЁГЁ SetQuantity, Г  Гў ГЇГ®Г¤ГЄГ«Г Г±Г±ГҐ ItemBase Г®Г­Г  ГҐГ±ГІГј. ГЏГ°ГҐГ¤Г¬ГҐГІ ГЇГ°ГЁ ГЅГІГ®Г¬ ГІГ ГЄ ГЁ Г®Г±ГІГ ГҐГІГ±Гї Г®Г¤ГЁГ­ ГЁ ГІГ®ГІ Г¦ГҐ!
+						itemCasted.SetQuantity(4);														// ГЋГЇГ°ГҐГ¤ГҐГ«ГїГҐГ¬ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г¤Г«Гї Г±Г®Г§Г¤Г Г­Г­Г»Гµ ГЎГЁГ­ГІГ®Гў ГЄГ ГЄ 4 ГёГІГіГЄГЁ
+						SetRandomHealthItem(itemCreated);												// Г‚Г»Г¤Г ГҐГ¬ ГЎГЁГ­ГІГ Г¬ Г°Г Г­Г¤Г®Г¬Г­Г®ГҐ ГЄГ Г·ГҐГ±ГІГўГ®, ГґГіГ­ГЄГ¶ГЁГї Г°Г ГЎГ®ГІГ ГҐГІ Г± ГЄГ«Г Г±Г±Г®Г¬ EntityAI (Г±Г¬. Гў ГЄГ®Г­ГґГҐ ГґГ Г©Г«Г )
 					}
 				}
-				// переменную itemCreated не обнуляем далее, поскольку мы ее не используем в проверке ниже.
-				itemCreated = player.GetInventory().CreateInInventory("TTSKOPants");		// Выдаем игроку штаны
-				itemCreated = player.GetInventory().CreateInInventory("TTsKOJacket_Camo");	// Выдаем игроку куртку
-				itemCreated = player.GetInventory().CreateInInventory("CombatBoots_Black");	// Выдаем игроку обувь
-				//itemCasted = ItemBase.Cast(itemCreated);										// Строка не нужна, закоментирована. используется для изменения класса EntityAI в ItemBase (чтобы нужные операции были доступны)
-				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		// Выдаем игроку ножик в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("FNX45");				// Выдаем игроку FNX в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("Mag_FNX45_15Rnd");	// Выдаем игроку магазины к FNX в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("Mag_FNX45_15Rnd");	// Выдаем игроку магазины к FNX в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		// Выдаем игроку магазины к AKM в любой свободный слот в инвентаре
-				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		// Выдаем игроку магазины к AKM в любой свободный слот в инвентаре
-				itemCreated = NULL;															// Обнуляем значение переменной после работы с ней, нужно если мы будем использовать ее далее
-				itemCreated = player.GetHumanInventory().CreateInHands("akm");				// Выдаем игроку AKM в руки
-				if (itemCreated)															// Проверяем, создался ли АКМ
+				// ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ itemCreated Г­ГҐ Г®ГЎГ­ГіГ«ГїГҐГ¬ Г¤Г Г«ГҐГҐ, ГЇГ®Г±ГЄГ®Г«ГјГЄГі Г¬Г» ГҐГҐ Г­ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬ Гў ГЇГ°Г®ГўГҐГ°ГЄГҐ Г­ГЁГ¦ГҐ.
+				itemCreated = player.GetInventory().CreateInInventory("TTSKOPants");		// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГёГІГ Г­Г»
+				itemCreated = player.GetInventory().CreateInInventory("TTsKOJacket_Camo");	// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі ГЄГіГ°ГІГЄГі
+				itemCreated = player.GetInventory().CreateInInventory("CombatBoots_Black");	// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г®ГЎГіГўГј
+				//itemCasted = ItemBase.Cast(itemCreated);										// Г‘ГІГ°Г®ГЄГ  Г­ГҐ Г­ГіГ¦Г­Г , Г§Г ГЄГ®Г¬ГҐГ­ГІГЁГ°Г®ГўГ Г­Г . ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГІГ±Гї Г¤Г«Гї ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї ГЄГ«Г Г±Г±Г  EntityAI Гў ItemBase (Г·ГІГ®ГЎГ» Г­ГіГ¦Г­Г»ГҐ Г®ГЇГҐГ°Г Г¶ГЁГЁ ГЎГ»Г«ГЁ Г¤Г®Г±ГІГіГЇГ­Г»)
+				itemCreated = player.GetInventory().CreateInInventory("CombatKnife");		// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г®Г¦ГЁГЄ Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("FNX45");				// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі FNX Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("Mag_FNX45_15Rnd");	// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ FNX Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("Mag_FNX45_15Rnd");	// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ FNX Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ AKM Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = player.GetInventory().CreateInInventory("Mag_AKM_30Rnd");		// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г¬Г ГЈГ Г§ГЁГ­Г» ГЄ AKM Гў Г«ГѕГЎГ®Г© Г±ГўГ®ГЎГ®Г¤Г­Г»Г© Г±Г«Г®ГІ Гў ГЁГ­ГўГҐГ­ГІГ Г°ГҐ
+				itemCreated = NULL;															// ГЋГЎГ­ГіГ«ГїГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© ГЇГ®Г±Г«ГҐ Г°Г ГЎГ®ГІГ» Г± Г­ГҐГ©, Г­ГіГ¦Г­Г® ГҐГ±Г«ГЁ Г¬Г» ГЎГіГ¤ГҐГ¬ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГҐГҐ Г¤Г Г«ГҐГҐ
+				itemCreated = player.GetHumanInventory().CreateInHands("akm");				// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі AKM Гў Г°ГіГЄГЁ
+				if (itemCreated)															// ГЏГ°Г®ГўГҐГ°ГїГҐГ¬, Г±Г®Г§Г¤Г Г«Г±Гї Г«ГЁ ГЂГЉГЊ
 				{
-					itemCreated.GetInventory().CreateAttachment( "PSO11Optic" ); 				// Выдаем игроку на AKM оптику ПСО 11 и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_WoodBttstck" ); 			// Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_WoodHndgrd" );				// Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
-					itemCreated.GetInventory().CreateAttachment( "AK_Suppressor" );				// Выдаем игроку на AKM цевье, приклад и глушитель, и крепим
+					itemCreated.GetInventory().CreateAttachment( "PSO11Optic" ); 				// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г®ГЇГІГЁГЄГі ГЏГ‘ГЋ 11 ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_WoodBttstck" ); 			// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_WoodHndgrd" );				// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
+					itemCreated.GetInventory().CreateAttachment( "AK_Suppressor" );				// Г‚Г»Г¤Г ГҐГ¬ ГЁГЈГ°Г®ГЄГі Г­Г  AKM Г¶ГҐГўГјГҐ, ГЇГ°ГЁГЄГ«Г Г¤ ГЁ ГЈГ«ГіГёГЁГІГҐГ«Гј, ГЁ ГЄГ°ГҐГЇГЁГ¬
 				}					
 				break;
 			}
 			
-			case 4: //Set with number 4   (Сет с номером 4)
+			case 4: //Set with number 4   (Г‘ГҐГІ Г± Г­Г®Г¬ГҐГ°Г®Г¬ 4)
 			{
 				break;
 			}
 			
-			case 5: //Set with number 5   (Сет с номером 5)
+			case 5: //Set with number 5   (Г‘ГҐГІ Г± Г­Г®Г¬ГҐГ°Г®Г¬ 5)
 			{
 				break;
 			}
 			
-			case 6: //Set with number 6   (Сет с номером 6)
+			case 6: //Set with number 6   (Г‘ГҐГІ Г± Г­Г®Г¬ГҐГ°Г®Г¬ 6)
 			{
 				break;
 			}
 			
-			default: //Default starting spawn set (Сет поумолчанию для всех игроков, в случае если ни один из сетов выше не выпал.
+			default: //Default starting spawn set (РЎРµС‚ РїРѕСѓРјРѕР»С‡Р°РЅРёСЋ РґР»СЏ РІСЃРµС… РёРіСЂРѕРєРѕРІ, РІ СЃР»СѓС‡Р°Рµ РµСЃР»Рё РЅРё РѕРґРёРЅ РёР· СЃРµС‚РѕРІ РІС‹С€Рµ РЅРµ РІС‹РїР°Р»)
 			{
-				//My_Custom_Spawn_Parameters.RemoveAllItems(player); // Чтобы удалить с персонажа уже имеющиеся стандартные стартовые шмотки раскомментировать строку
+				//My_Custom_Spawn_Parameters.RemoveAllItems(player); // Г—ГІГ®ГЎГ» ГіГ¤Г Г«ГЁГІГј Г± ГЇГҐГ°Г±Г®Г­Г Г¦Г  ГіГ¦ГҐ ГЁГ¬ГҐГѕГ№ГЁГҐГ±Гї Г±ГІГ Г­Г¤Г Г°ГІГ­Г»ГҐ Г±ГІГ Г°ГІГ®ГўГ»ГҐ ГёГ¬Г®ГІГЄГЁ Г°Г Г±ГЄГ®Г¬Г¬ГҐГ­ГІГЁГ°Г®ГўГ ГІГј Г±ГІГ°Г®ГЄГі
 				
 				break;
 			}
