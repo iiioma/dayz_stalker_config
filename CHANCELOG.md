@@ -10,3 +10,5 @@
 
 Добавил на сервер CustomSpawnPlayerConfig, который скачал с форума https://s-platoon.ru/topic/7019-nastroyka-startovogo-luta-igrokov/?do=findComment&comment=110521
 
+05.01.2023
+Настроил дефолт статовый лут
