@@ -41,5 +41,4 @@
     <event name="AnimalWolf" />
     <event name="AnimalWildBoar" />
 	<event name="AnimalGermanDogs" />
-	<event name="InfectedKrovosos" />
 </eventposdef>

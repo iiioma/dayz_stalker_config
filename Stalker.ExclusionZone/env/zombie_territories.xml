@@ -47,9 +47,7 @@
         <zone name="InfectedVillageTier1" smin="0" smax="0" dmin="7" dmax="13" x="4523.75" z="2357.5" r="80"/>
         <zone name="InfectedVillageTier1" smin="0" smax="0" dmin="7" dmax="13" x="6464.38" z="3076.25" r="120"/>
     </territory>
-    <territory color="1124502272">
-		
-		<zone name="InfectedArmy" smin="3" smax="5" dmin="3" dmax="5" x="4495.43" z="1956.57" r="90"/>
+    <territory color="1124502272">
         <zone name="InfectedArmy" smin="3" smax="5" dmin="3" dmax="5" x="7992.86" z="14634.2" r="90"/>
         <zone name="InfectedArmy" smin="4" smax="8" dmin="4" dmax="8" x="7827.86" z="14750.3" r="100"/>
         <zone name="InfectedArmy" smin="4" smax="8" dmin="5" dmax="10" x="1652.01" z="14247.3" r="160"/>

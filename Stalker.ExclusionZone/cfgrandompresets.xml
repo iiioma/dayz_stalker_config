@@ -230,77 +230,41 @@
  </cargo>
      <cargo name="Kontroler" chance="1.00">
            <item name="FS_Kontroler_Brain" chance="0.30"/>
-           <item name="Handcuffs" chance="0.05"/>
-           <item name="Compass" chance="0.05"/>
-           <item name="Rope" chance="0.05"/>
-           <item name="ART_Kogot" chance="0.03"/>
-           <item name="ART_Generator" chance="0.03"/>
-           <item name="FS_Document_3" chance="0.01"/>
  </cargo>
      <cargo name="Kontroler_2" chance="1.00">
            <item name="WarZone_chasti_mozg_kontrolera" chance="0.10"/>
            <item name="WarZone_chasti_ruka_kontrolera" chance="0.30"/>
-           <item name="Handcuffs" chance="0.05"/>
-           <item name="Compass" chance="0.05"/>
-           <item name="Rope" chance="0.05"/>
-           <item name="ART_Kogot" chance="0.03"/>
-           <item name="ART_Generator" chance="0.03"/>
-           <item name="FS_Document_3" chance="0.01"/>
  </cargo>
      <cargo name="Snork" chance="1.00">
            <item name="WarZone_chasti_ruka_snorka" chance="0.40"/>
            <item name="FS_Snork_Head" chance="0.20"/>
-           <item name="MSFCGasMaskGP5Tan" chance="0.25"/>
  </cargo>
      <cargo name="Snork_Boss" chance="1.00">
-           <item name="FS_Snork_Head_boss" chance="0.10"/>
            <item name="WarZone_chasti_noga_snorka" chance="0.30"/>
-           <item name="WarZone_chasti_ruka_snorka" chance="0.40"/>
-           <item name="MSFCGasMaskGP5Tan" chance="0.25"/>
-           <item name="Epinephrine" chance="0.10"/>
  </cargo>
      <cargo name="KrovoSOS" chance="1.00">
            <item name="FS_KrovoSOS_Tentacles" chance="0.60"/>
            <item name="FS_KrovoSOS_Tentacles" chance="0.60"/>
  </cargo>
      <cargo name="KrovoSOS_invisible" chance="1.00">
-           <item name="FS_KrovoSOS_Head" chance="0.30"/>
            <item name="FS_KrovoSOS_Tentacles" chance="0.50"/>
            <item name="FS_KrovoSOS_Tentacles" chance="0.50"/>
-           <item name="ART_Ring" chance="0.10"/>
  </cargo>
      <cargo name="KrovoSOS_Dark" chance="1.00">
-           <item name="FS_KrovoSOS_Head_Dark" chance="0.35"/>
            <item name="FS_KrovoSOS_Tentacles" chance="0.50"/>
            <item name="FS_KrovoSOS_Tentacles" chance="0.50"/>
  </cargo>
      <cargo name="KrovoSOS_Blood" chance="1.00">
-           <item name="FS_KrovoSOS_Head_Blood" chance="0.40"/>
            <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
-           <item name="ART_Blood2" chance="0.05"/>
  </cargo>
      <cargo name="KrovoSOS_BolotTvar" chance="1.00">
-           <item name="FS_KrovoSOS_Head_BolotTvar" chance="0.30"/>
            <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
-           <item name="ART_FuzzKolobok2" chance="0.05"/>
  </cargo>
      <cargo name="KrovososType2_Volkodav" chance="1.00">
-           <item name="FS_KrovoSOS_Tentacles" chance="0.35"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
            <item name="WarZone_chasti_chupalsa_krovososa" chance="0.50"/>
  </cargo>
      <cargo name="KrovososType2_Volkodav_Ser" chance="1.00">
            <item name="WarZone_chasti_chupalsa_krovososa" chance="0.65"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.15"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.15"/>
-           <item name="WarZone_chasti_chupalsa_krovososa" chance="0.15"/>
-           <item name="ART_Ring" chance="0.10"/>
-           <item name="ART_Soul2" chance="0.05"/>
  </cargo>
      <cargo name="pristine_bandit" chance="1.00">
            <item name="FS_TOZ34_MINI" chance="0.30"/>
@@ -401,12 +365,6 @@
  </cargo>
      <cargo name="Izlome" chance="1.00">
            <item name="WarZone_chasti_Ruka_Izlom" chance="0.30"/>
-           <item name="FS_ITEM_VODKA" chance="0.30"/>
-           <item name="TunaCan" chance="0.30"/>
-           <item name="HuntingKnife" chance="0.30"/>
-           <item name="ART_Pustishka" chance="0.10"/>
-           <item name="ART_Gravi1" chance="0.05"/>
-		   <item name="ART_FuzzKolobok" chance="0.02"/>
  </cargo>
      <cargo chance="0.50" name="XZboarloot">
 		   <item name="Mutant_XZ_Boar_leg" chance="0.25" />

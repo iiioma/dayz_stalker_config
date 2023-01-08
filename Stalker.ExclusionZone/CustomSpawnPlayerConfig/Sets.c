@@ -113,7 +113,6 @@ class StartSetsPlayersConfig
 					}
 				}
 				itemCreated = player.GetInventory().CreateInInventory("WaterBottle");            	    // Выдаем игроку воду в бутылке
-				//itemCreated = player.GetInventory().CreateInInventory("Marmelade");            	        // Выдаем игроку мармелад
 				itemCreated = player.GetInventory().CreateInInventory("SardinesCan");	                // Добавляем в инвентарь созданного рюкзака сардины и записываем в переменную itemCreated1
 				// переменную itemCreated не обнуляем далее, поскольку мы ее не используем в проверке ниже.
 		        itemCreated = player.GetInventory().CreateInInventory("BaseballCap_Camo");            	// Выдаем игроку головной убор
@@ -131,6 +130,8 @@ class StartSetsPlayersConfig
 				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
 				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
 				itemCreated = player.GetInventory().CreateInInventory("AmmoBox_00buck_10rnd");		    // Выдаем игроку патроны к обрезу в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("Chemlight_Green");		        // Выдаем игроку химсвет в любой свободный слот в инвентаре
+				itemCreated = player.GetInventory().CreateInInventory("Marmelade");            	        // Выдаем игроку мармелад
 				itemCreated = NULL;															            // Обнуляем значение переменной после работы с ней, нужно если мы будем использовать ее далее
 				itemCreated = player.GetHumanInventory().CreateInHands("Toz66Obrez_AoD");				// Выдаем игроку ТОЗ в руки
 				break;
