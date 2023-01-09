@@ -16,3 +16,5 @@
 09.01.2023  
 Вернул ванильных мутантов, сбросил конфиги events, cfgeventspawns, zombi_terrritories  
 Добавил хим свет в статовый лут
+
+Добавил мод BulletStacksPlusPlus
