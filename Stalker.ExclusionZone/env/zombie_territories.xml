@@ -510,6 +510,10 @@
         <zone name="InfectedVillage" smin="0" smax="0" dmin="2" dmax="6" x="11489.5" z="14251.5" r="100"/>
         <zone name="InfectedVillage" smin="0" smax="0" dmin="5" dmax="10" x="11965" z="13865" r="80"/>
         <zone name="InfectedVillage" smin="0" smax="0" dmin="2" dmax="6" x="11445" z="14900" r="100"/>
-        <zone name="InfectedVillage" smin="0" smax="0" dmin="2" dmax="6" x="11640" z="15083" r="90"/>
+        <zone name="InfectedVillage" smin="0" smax="0" dmin="2" dmax="6" x="11640" z="15083" r="90"/>
+        
+        <zone name="InfectedMutantIzlom" smin="0" smax="0" dmin="2" dmax="6" x="4771.48" z="2294.28" r="90"/>
+        
+        <zone name="InfectedTest" smin="0" smax="0" dmin="2" dmax="6" x="4872.32" z="2123.73" r="90"/>
     </territory>
 </territory-type>
