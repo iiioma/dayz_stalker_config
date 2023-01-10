@@ -18,8 +18,7 @@
             "notificationtime": 2,
             "triggercooldown": 30,
             "sounds": [
-                "1",
-                "2"
+                "4"
             ],
             "emotes": [
                 "1"
@@ -41,9 +40,7 @@
             "notificationtime": 2,
             "triggercooldown": 30,
             "sounds": [
-                "4",
-                "12",
-                "25"
+                "4"
             ],
             "emotes": [
                 "1"
@@ -65,8 +62,6 @@
             "notificationtime": 2,
             "triggercooldown": 30,
             "sounds": [
-                "4",
-                "12",
                 "25"
             ],
             "emotes": [
