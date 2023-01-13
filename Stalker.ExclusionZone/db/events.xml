@@ -545,30 +545,36 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-			<child lootmax="5" lootmin="0" max="2" min="1" type="Mutant_XZ_Tushkano1" />
-			<child lootmax="5" lootmin="0" max="2" min="1" type="Mutant_XZ_Tushkano2" />
-			<child lootmax="5" lootmin="0" max="2" min="1" type="Mutant_XZ_Tushkano3" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Civ_Trup1" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Civ_Trup2" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Civ_Trup3" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Civ_Trup4" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Civ_Trup5" />
         </children>
     </event>
     <event name="InfectedMutantIzlom">
-		<nominal>0</nominal>
-		<min>0</min>
-		<max>8</max>
-		<lifetime>3</lifetime>
-		<restock>0</restock>
-		<saferadius>100</saferadius>
-		<distanceradius>50</distanceradius>
-		<cleanupradius>100</cleanupradius>
-		<flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
-		<position>player</position>
-		<limit>custom</limit>
-		<active>1</active>
-		<children>
-			<child lootmax="5" lootmin="0" max="2" min="1" type="Mutant_XZ_Snork1" />
-			<child lootmax="5" lootmin="0" max="2" min="1" type="Mutant_XZ_Snork2" />
-			//<child lootmax="5" lootmin="0" max="2" min="1" type="Mutant_XZ_Himera3" />
-		</children>
-	</event>
+        <nominal>0</nominal>
+        <min>0</min>
+        <max>8</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Novice1" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Novice2" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Novice3" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Novice4" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Novice5" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Novice6" />
+            <child lootmax="5" lootmin="0" max="2" min="1" type="Zombi_XZ_Novice7" />
+        </children>
+    </event>
     <event name="ItemPlanks">
         <nominal>50</nominal>
         <min>40</min>
