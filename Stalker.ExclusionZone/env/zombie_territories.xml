@@ -518,7 +518,9 @@
 
         <zone name="InfectedMutantIzlom" smin="0" smax="0" dmin="2" dmax="6" x="4771.48" z="2294.28" r="90"/>
         
-        <zone name="InfectedTest" smin="0" smax="0" dmin="2" dmax="6" x="4872.32" z="2123.73" r="90"/>
+        <zone name="InfectedTest" smin="0" smax="0" dmin="2" dmax="6" x="5037.94" z="1956.82" r="90"/>
+        
+        <zone name="InfectedMutantDog" smin="0" smax="0" dmin="2" dmax="6" x="4872.32" z="2123.73" r="90"/>
 
     </territory>
 </territory-type>
