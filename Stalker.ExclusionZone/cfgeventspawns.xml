@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
-    <event name="VehicleCivilianSedan">
-		<pos x="" z="" a="" />
-    </event>
     <event name="StaticHeliCrash">
 		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
 		<pos x="" z="" a="-1" />
@@ -14,17 +11,13 @@
     <event name="StaticPoliceCar">
 		<pos x="" z="" a="" />
     </event>
-    <event name="VehicleV3S">
-		<pos x="" z="" a="" />
-    </event>
 	<event name="ItemPlanks">
 		<pos x="" y="" z="" a="" />
     </event>
-    <event name="VehicleV3SChassis" >
-		<pos x="" z="" a="" />
+	<event name="StaticChristmasTree">
+		<pos x="6560.29" z="2462.12" a="0.0" />
 	</event>
-	
-	<event name="VehicleV3SCargo" />
+    <event name="Loot" />
     <event name="VehicleTransitBus" />
     <event name="InfectedVillage" />
     <event name="InfectedSolitude" />
@@ -34,14 +27,6 @@
     <event name="InfectedPolice" />
     <event name="InfectedFirefighter" />
     <event name="InfectedPrisoner" />
-    <event name="InfectedMutantIzlom" />
-    <event name="InfectedTest" />
-    <event name="InfectedMutantDog" />
-    <event name="AnimalDeer" />
-    <event name="AnimalCow" />
-    <event name="AnimalSheep" />
-    <event name="AnimalRoeDeer" />
     <event name="AnimalWolf" />
     <event name="AnimalWildBoar" />
-	<event name="AnimalGermanDogs" />
 </eventposdef>
