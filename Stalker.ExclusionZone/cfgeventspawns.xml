@@ -27,6 +27,8 @@
     <event name="InfectedPolice" />
     <event name="InfectedFirefighter" />
     <event name="InfectedPrisoner" />
-    <event name="AnimalWolf" />
+    <event name="InfectedMutantIzlom" />
+    <event name="InfectedTest" />
+    <event name="InfectedMutantDog" />
     <event name="AnimalWildBoar" />
 </eventposdef>
