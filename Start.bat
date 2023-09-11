@@ -1,0 +1,3 @@
+echo Запускаю сервер...
+cd "%DAYZ-SA_SERVER_LOCATION%"
+start "" "DayZServer_x64.exe" -server -config=serverDZ.cfg -port=2302 -profiles=profiles -dologs -adminlog -netlog -freezecheck "-mod=@S.T.A.L.K.E.R. Area Of Decay Map;@S.T.A.L.K.E.R. Area Of Decay Building;@CF;@VPPAdminTools" "-servermod=@ServerMods" "-BEpath=C:\Program Files (x86)\Steam\steamapps\common\DayZServer\battleye"

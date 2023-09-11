@@ -1,12 +1,15 @@
-# dayz_stalker_config
+# Конфиг рабочего сервера на карте Area of Decay
 
-Репозиторий с настройками для игрового сервера DayZ Standalone
+Для запуска сервера на карте AoD необходимо скачать следующие модификации:
 
-STALKER_SYBERIA_LIGHTRP (TEST)\
-185.135.81.17:2344
+[Community Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=1559212036)\
+[VPPAdminTools](https://steamcommunity.com/sharedfiles/filedetails/?id=1828439124)\
+[S.T.A.L.K.E.R.: Area Of Decay Map](https://steamcommunity.com/sharedfiles/filedetails/?id=2871587357)\
+[S.T.A.L.K.E.R.: Area Of Decay Building](https://steamcommunity.com/sharedfiles/filedetails/?id=2871588282)
 
-TODO - список задач\
-CHANCELOG - список изменений на сервере
+### Наш сервер
 
-Документация для настройки сервера:\
-github.com/siberianworker/dayz_documentation
+[Cсылка на дискорд](https://discord.gg/aesHPnRYbk)
+
+STALKER_SYBERIA_LIGHTRP\
+92.38.222.51:2236

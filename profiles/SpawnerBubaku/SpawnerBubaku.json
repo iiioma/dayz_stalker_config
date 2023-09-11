@@ -1,0 +1,3393 @@
+{
+    "loglevel": 0,
+    "BubakLocations": [
+        {
+            "name": "Burer",
+            "workinghours": "0-24",
+            "triggerpos": "6009.7 67.6145 527.19",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6009.7 67.6145 527.19"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Burer1",
+                "Mutant_AoD_Burer2"
+            ]
+        },
+        {
+            "name": "Zombi_trup1",
+            "workinghours": "0-24",
+            "triggerpos": "5109.91 130.906 5815.16",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5109.91 130.906 5815.16"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup2",
+            "workinghours": "0-24",
+            "triggerpos": "5202.23 130.684 5817.08",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5202.23 130.684 5817.08"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup3",
+            "workinghours": "0-24",
+            "triggerpos": "5102.66 115.692 4044.95",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5102.66 115.692 4044.95"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup4",
+            "workinghours": "0-24",
+            "triggerpos": "5331.66 123.064 3825.49",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5331.66 123.064 3825.49"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup5",
+            "workinghours": "0-24",
+            "triggerpos": "5333.62 122.425 3721.29",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5333.62 122.425 3721.29"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup6",
+            "workinghours": "0-24",
+            "triggerpos": "5323.67 113.507 3450.33",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5323.67 113.507 3450.33"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup7",
+            "workinghours": "0-24",
+            "triggerpos": "5032.66 98.5442 2672.33",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5032.66 98.5442 2672.33"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup8",
+            "workinghours": "0-24",
+            "triggerpos": "4089.16 95.6919 2173.09",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4089.16 95.6919 2173.09"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup9",
+            "workinghours": "0-24",
+            "triggerpos": "4724.7 0 1467.83",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4724.7 57.5904 1467.83"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup10",
+            "workinghours": "0-24",
+            "triggerpos": "4659.51 0 1392.67",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4659.51 62.7581 1392.67"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup11",
+            "workinghours": "0-24",
+            "triggerpos": "6548.01 68.1187 806.98",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6548.01 68.1187 806.98"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup12",
+            "workinghours": "0-24",
+            "triggerpos": "4927.56 99.5142 2199.12",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4927.56 99.5142 2199.12"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup13",
+            "workinghours": "0-24",
+            "triggerpos": "2189.48 38.3426 4831.81",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2189.48 38.3426 4831.81"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup14",
+            "workinghours": "0-24",
+            "triggerpos": "3122.71 92.9647 2437.98",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3122.71 92.9647 2437.98"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup15",
+            "workinghours": "0-24",
+            "triggerpos": "1891.61 80.9259 1589.12",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "1891.61 80.9259 1589.12"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup16",
+            "workinghours": "0-24",
+            "triggerpos": "2570.46 35.0852 6048.38",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2570.46 35.0852 6048.38"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup17",
+            "workinghours": "0-24",
+            "triggerpos": "2525.55 34.4143 6133.75",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2525.55 34.4143 6133.75"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup18",
+            "workinghours": "0-24",
+            "triggerpos": "2262.24 37.1764 6136.73",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2262.24 37.1764 6136.73"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup19",
+            "workinghours": "0-24",
+            "triggerpos": "3413.56 95.7821 2562.24",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3413.56 95.7821 2562.24"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup20",
+            "workinghours": "0-24",
+            "triggerpos": "2541.1 38.5168 6277.97",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2541.1 38.5168 6277.97"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup21",
+            "workinghours": "0-24",
+            "triggerpos": "2614.62 57.9426 6479.92",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2614.62 57.9426 6479.92"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Zombi_trup22",
+            "workinghours": "0-24",
+            "triggerpos": "4620.98 107.986 6147.01",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4620.98 107.986 6147.01"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Zombi_AoD_Civ_Trup1",
+                "Zombi_AoD_Civ_Trup2",
+                "Zombi_AoD_Civ_Trup3",
+                "Zombi_AoD_Civ_Trup4",
+                "Zombi_AoD_Civ_Trup5"
+            ]
+        },
+        {
+            "name": "Izlom1",
+            "workinghours": "0-24",
+            "triggerpos": "4636.32 87.2086 4244.32",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4636.32 87.2086 4244.32"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom2",
+            "workinghours": "0-24",
+            "triggerpos": "5362.69 115.361 3994.16",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5362.69 115.361 3994.16"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom3",
+            "workinghours": "0-24",
+            "triggerpos": "4892.28 111.007 2888.07",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4892.28 111.007 2888.07"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom4",
+            "workinghours": "0-24",
+            "triggerpos": "3704.78 106.765 2543.54",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3704.78 106.765 2543.54"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom5",
+            "workinghours": "0-24",
+            "triggerpos": "5031.72 92.7336 1954.39",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5031.72 92.7336 1954.39"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom6",
+            "workinghours": "0-24",
+            "triggerpos": "20000 92.6325 20000",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "20000 92.6325 20000"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom7",
+            "workinghours": "0-24",
+            "triggerpos": "2811.65 35.9152 4683.46",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2811.65 35.9152 4683.46"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom8",
+            "workinghours": "0-24",
+            "triggerpos": "2855.22 122.203 2863.32",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2855.22 122.203 2863.32"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom9",
+            "workinghours": "0-24",
+            "triggerpos": "3637.91 107.992 2404.48",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3637.91 107.992 2404.48"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom10",
+            "workinghours": "0-24",
+            "triggerpos": "2935.85 106.889 8788.71",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2935.85 106.889 8788.71"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom11",
+            "workinghours": "0-24",
+            "triggerpos": "6622.76 67.7265 860.752",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6622.76 67.7265 860.752"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Izlom12",
+            "workinghours": "0-24",
+            "triggerpos": "2324 82.1726 1562.32",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2324 82.1726 1562.32"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Izlom1",
+                "Mutant_AoD_Izlom2",
+                "Mutant_AoD_Izlom3"
+            ]
+        },
+        {
+            "name": "Kontroler1",
+            "workinghours": "0-24",
+            "triggerpos": "2832.79 122.603 8205.66",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2832.79 122.603 8205.66"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Controller1"
+            ]
+        },
+        {
+            "name": "Kontroler2",
+            "workinghours": "0-24",
+            "triggerpos": "2985.15 122.603 8132.19",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2985.15 122.603 8132.19"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Controller1"
+            ]
+        },
+        {
+            "name": "Kontroler3",
+            "workinghours": "0-24",
+            "triggerpos": "4192.55 127.323 9107.18",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4192.55 127.323 9107.18"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Controller1"
+            ]
+        },
+        {
+            "name": "Krovosos1",
+            "workinghours": "0-24",
+            "triggerpos": "3391.41 99.0124 9753.58",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3391.41 99.0124 9753.58"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos2",
+            "workinghours": "0-24",
+            "triggerpos": "3237.63 99.5449 2714.04",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3237.63 99.5449 2714.04"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos3",
+            "workinghours": "0-24",
+            "triggerpos": "6821.73 91.3226 505.299",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6821.73 91.3226 505.299"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 3,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos4",
+            "workinghours": "0-24",
+            "triggerpos": "1300.96 92.1025 2408.26",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "1300.96 92.1025 2408.26"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos5",
+            "workinghours": "0-24",
+            "triggerpos": "7497.72 85.6132 3067.47",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "7497.72 85.6132 3067.47"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos6",
+            "workinghours": "0-24",
+            "triggerpos": "2698.49 89.7173 7705.65",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2698.49 89.7173 7705.65"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos7",
+            "workinghours": "0-24",
+            "triggerpos": "3476.19 66.4594 4098.04",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3476.19 66.4594 4098.04"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos8",
+            "workinghours": "0-24",
+            "triggerpos": "3572.4 70.4401 4082.9",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3572.4 70.4401 4082.9"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 3,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos9",
+            "workinghours": "0-24",
+            "triggerpos": "2734.91 84.0326 1996.9",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2734.91 84.0326 1996.9"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos10",
+            "workinghours": "0-24",
+            "triggerpos": "2777.35 108.217 8615.5",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2777.35 108.217 8615.5"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 3,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "Krovosos11",
+            "workinghours": "0-24",
+            "triggerpos": "3209.35 30.8479 4925.5",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3209.35 30.8479 4925.5"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 3,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Krovosos1",
+                "Mutant_AoD_Krovosos4"
+            ]
+        },
+        {
+            "name": "RatWolf1",
+            "workinghours": "0-24",
+            "triggerpos": "2178.03 48.2776 4278.19",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2178.03 48.2776 4278.19"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Rat_Wolf"
+            ]
+        },
+        {
+            "name": "RatWolf2",
+            "workinghours": "0-24",
+            "triggerpos": "2269.08 43.0252 6668.36",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2269.08 43.0252 6668.36"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Rat_Wolf"
+            ]
+        },
+        {
+            "name": "RatWolf3",
+            "workinghours": "0-24",
+            "triggerpos": "3240.42 99.5973 10863.3",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3240.42 99.5973 10863.3"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Rat_Wolf"
+            ]
+        },
+        {
+            "name": "RatWolf4",
+            "workinghours": "0-24",
+            "triggerpos": "3936.85 107.747 6005.13",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3936.85 107.747 6005.13"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Rat_Wolf"
+            ]
+        },
+        {
+            "name": "Forester1",
+            "workinghours": "0-24",
+            "triggerpos": "3385.74 100.238 11099.5",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3385.74 100.238 11099.5"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Forester1"
+            ]
+        },
+        {
+            "name": "Forester2",
+            "workinghours": "0-24",
+            "triggerpos": "4126.25 97.3027 9905.96",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4126.25 97.3027 9905.96"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Forester1"
+            ]
+        },
+        {
+            "name": "Boar1",
+            "workinghours": "0-24",
+            "triggerpos": "5348.6 117.755 4824.1",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5348.6 117.755 4824.1"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 5,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar2",
+            "workinghours": "0-24",
+            "triggerpos": "5062.72 95.8845 2446.89",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5062.72 95.8845 2446.89"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar3",
+            "workinghours": "0-24",
+            "triggerpos": "4842.22 82.6048 1979.39",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4842.22 82.6048 1979.39"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar4",
+            "workinghours": "0-24",
+            "triggerpos": "5597.72 50.1737 1225.33",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5597.72 50.1737 1225.33"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar5",
+            "workinghours": "0-24",
+            "triggerpos": "6155.9 67.4995 534.801",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6155.9 67.4995 534.801"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar6",
+            "workinghours": "0-24",
+            "triggerpos": "2759.32 43.3001 3914.55",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2759.32 43.3001 3914.55"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 5,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar7",
+            "workinghours": "0-24",
+            "triggerpos": "2165.27 54.5443 3557.39",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2165.27 54.5443 3557.39"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar8",
+            "workinghours": "0-24",
+            "triggerpos": "1579.1 83.5921 1413.97",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "1579.1 83.5921 1413.97"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar9",
+            "workinghours": "0-24",
+            "triggerpos": "1866.58 81.8094 2392.57",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "1866.58 81.8094 2392.57"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar10",
+            "workinghours": "0-24",
+            "triggerpos": "3002.55 86.7594 6044.09",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3002.55 86.7594 6044.09"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Boar11",
+            "workinghours": "0-24",
+            "triggerpos": "6514.77 69.6178 603.461",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "20000 69.6178 20000"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Boar1",
+                "Mutant_AoD_Boar2"
+            ]
+        },
+        {
+            "name": "Fresh1",
+            "workinghours": "0-24",
+            "triggerpos": "5250.33 101.11 2136.22",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5250.33 101.11 2136.22"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh2",
+            "workinghours": "0-24",
+            "triggerpos": "4756.3 84.6613 2117.06",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4756.3 84.6613 2117.06"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh3",
+            "workinghours": "0-24",
+            "triggerpos": "5614.2 64.8854 1512.24",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5614.2 64.8854 1512.24"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 5,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh4",
+            "workinghours": "0-24",
+            "triggerpos": "5850.95 48.5616 1669.74",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5850.95 48.5616 1669.74"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh5",
+            "workinghours": "0-24",
+            "triggerpos": "4881.26 114.274 4710.14",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4881.26 114.274 4710.14"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh6",
+            "workinghours": "0-24",
+            "triggerpos": "3799.81 75.9008 3654.88",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3799.81 75.9008 3654.88"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh7",
+            "workinghours": "0-24",
+            "triggerpos": "2610.92 94.8122 1756.57",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2610.92 94.8122 1756.57"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh8",
+            "workinghours": "0-24",
+            "triggerpos": "1583.62 93.7112 2476.5",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "1583.62 93.7112 2476.5"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh9",
+            "workinghours": "0-24",
+            "triggerpos": "2819.4 105.979 2505.06",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2819.4 105.979 2505.06"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh10",
+            "workinghours": "0-24",
+            "triggerpos": "3741.47 99.4559 6123.87",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3741.47 99.4559 6123.87"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh11",
+            "workinghours": "0-24",
+            "triggerpos": "2332.51 38.3825 5925.28",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2332.51 38.3825 5925.28"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh12",
+            "workinghours": "0-24",
+            "triggerpos": "3035.97 101.293 8996.84",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3035.97 101.293 8996.84"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh13",
+            "workinghours": "0-24",
+            "triggerpos": "4610.37 91.1787 2001.75",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4610.37 91.1787 2001.75"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "Fresh14",
+            "workinghours": "0-24",
+            "triggerpos": "4571.27 53.7178 1541.53",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4571.27 53.7178 1541.53"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 3,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Fresh1",
+                "Mutant_AoD_Fresh2",
+                "Mutant_AoD_Fresh3"
+            ]
+        },
+        {
+            "name": "PseDog1",
+            "workinghours": "0-24",
+            "triggerpos": "5851.67 131.481 3758.61",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5851.67 131.481 3758.61"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Pse_Dog1",
+                "Mutant_AoD_Pse_Dog2"
+            ]
+        },
+        {
+            "name": "PseDog2",
+            "workinghours": "0-24",
+            "triggerpos": "3630.27 35.6571 4993.05",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3630.27 35.6571 4993.05"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Pse_Dog1",
+                "Mutant_AoD_Pse_Dog2"
+            ]
+        },
+        {
+            "name": "PseDog3",
+            "workinghours": "0-24",
+            "triggerpos": "3386.4 85.8337 6020.83",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3386.4 85.8337 6020.83"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Pse_Dog1",
+                "Mutant_AoD_Pse_Dog2"
+            ]
+        },
+        {
+            "name": "PseDog4",
+            "workinghours": "0-24",
+            "triggerpos": "4034.14 136.487 8558.19",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4034.14 136.487 8558.19"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Pse_Dog1",
+                "Mutant_AoD_Pse_Dog2"
+            ]
+        },
+        {
+            "name": "PseDog5",
+            "workinghours": "0-24",
+            "triggerpos": "3449.77 98.4721 10763.1",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3449.77 98.4721 10763.1"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Pse_Dog1",
+                "Mutant_AoD_Pse_Dog2"
+            ]
+        },
+        {
+            "name": "PseDog6",
+            "workinghours": "0-24",
+            "triggerpos": "3616.66 98.1553 9931.44",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3616.66 98.1553 9931.44"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Pse_Dog1",
+                "Mutant_AoD_Pse_Dog2"
+            ]
+        },
+        {
+            "name": "Snork1",
+            "workinghours": "0-24",
+            "triggerpos": "5173.27 113.508 5041",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5173.27 113.508 5041"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Snork1",
+                "Mutant_AoD_Snork2"
+            ]
+        },
+        {
+            "name": "Snork2",
+            "workinghours": "0-24",
+            "triggerpos": "5714.85 114.279 4752.48",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5714.85 114.279 4752.48"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Snork1",
+                "Mutant_AoD_Snork2"
+            ]
+        },
+        {
+            "name": "Snork3",
+            "workinghours": "0-24",
+            "triggerpos": "2741.32 38.4638 6628.58",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2741.32 38.4638 6628.58"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Snork1",
+                "Mutant_AoD_Snork2"
+            ]
+        },
+        {
+            "name": "Snork4",
+            "workinghours": "0-24",
+            "triggerpos": "2540.56 53.2685 6955.71",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2540.56 53.2685 6955.71"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 5,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Snork1",
+                "Mutant_AoD_Snork2"
+            ]
+        },
+        {
+            "name": "Dog1",
+            "workinghours": "0-24",
+            "triggerpos": "5122.83 157.645 6223.97",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5122.83 157.645 6223.97"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog_zastava",
+            "workinghours": "0-24",
+            "triggerpos": "5421.14 117.053 5223.63",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 300.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5421.14 117.053 5223.63",
+                "5421.14 117.053 5223.63"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog_ferma",
+            "workinghours": "0-24",
+            "triggerpos": "4699.91 88.17 2277.91",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 100.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4699.91 88.17 2277.91"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog4",
+            "workinghours": "0-24",
+            "triggerpos": "5605.27 121.315 4310.36",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5605.27 121.315 4310.36"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog5",
+            "workinghours": "0-24",
+            "triggerpos": "5173.88 124.876 3506.58",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5173.88 124.876 3506.58"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog6",
+            "workinghours": "0-24",
+            "triggerpos": "4394.24 102.255 2036.3",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4394.24 102.255 2036.3"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog7",
+            "workinghours": "0-24",
+            "triggerpos": "4788.4 72.2921 1741.73",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4788.4 72.2921 1741.73"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog8",
+            "workinghours": "0-24",
+            "triggerpos": "4695.13 55.2126 1107.55",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4695.13 55.2126 1107.55"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog9",
+            "workinghours": "0-24",
+            "triggerpos": "5795.49 51.5925 1082.3",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5795.49 51.5925 1082.3"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog10",
+            "workinghours": "0-24",
+            "triggerpos": "6350.27 68.2193 959.58",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6350.27 68.2193 959.58"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog11",
+            "workinghours": "0-24",
+            "triggerpos": "4379.62 125.013 4561.53",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4379.62 125.013 4561.53"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog12",
+            "workinghours": "0-24",
+            "triggerpos": "1876.13 39.8698 4569.16",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "1876.13 39.8698 4569.16"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 5,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog13",
+            "workinghours": "0-24",
+            "triggerpos": "4288.89 115.43 2890.73",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4288.89 115.43 2890.73"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog14",
+            "workinghours": "0-24",
+            "triggerpos": "2492.01 86.2024 2311.05",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2492.01 86.2024 2311.05"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog15",
+            "workinghours": "0-24",
+            "triggerpos": "4761.63 105.986 6358.77",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4761.63 105.986 6358.77"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog16",
+            "workinghours": "0-24",
+            "triggerpos": "4352.01 104.717 6015.23",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4352.01 104.717 6015.23"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 5,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog17",
+            "workinghours": "0-24",
+            "triggerpos": "2046.71 84.0588 5684.04",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2046.71 84.0588 5684.04"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog18",
+            "workinghours": "0-24",
+            "triggerpos": "4597.29 122.538 7855.76",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4597.29 122.538 7855.76"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Dog19",
+            "workinghours": "0-24",
+            "triggerpos": "3403.94 93.0188 10535",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3403.94 93.0188 10535"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Dog_Red",
+                "Mutant_AoD_Dog_White",
+                "Mutant_AoD_Dog_Fur",
+                "Mutant_AoD_Dog_Brown"
+            ]
+        },
+        {
+            "name": "Tark1",
+            "workinghours": "0-24",
+            "triggerpos": "6880.11 95.9025 2866.86",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6880.11 95.9025 2866.86"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tark_Child",
+                "Mutant_AoD_Tark1_Male",
+                "Mutant_AoD_Tark1_Female"
+            ]
+        },
+        {
+            "name": "Tark2",
+            "workinghours": "0-24",
+            "triggerpos": "2811.09 110.996 8003.36",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2811.09 110.996 8003.36"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tark_Child",
+                "Mutant_AoD_Tark1_Male",
+                "Mutant_AoD_Tark1_Female"
+            ]
+        },
+        {
+            "name": "Tark3",
+            "workinghours": "0-24",
+            "triggerpos": "2740.87 122.603 8283.08",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2740.87 122.603 8283.08"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tark_Child",
+                "Mutant_AoD_Tark1_Male",
+                "Mutant_AoD_Tark1_Female"
+            ]
+        },
+        {
+            "name": "Tark4",
+            "workinghours": "0-24",
+            "triggerpos": "2963.05 122.603 8348.96",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2963.05 122.603 8348.96"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tark_Child",
+                "Mutant_AoD_Tark1_Male",
+                "Mutant_AoD_Tark1_Female"
+            ]
+        },
+        {
+            "name": "Tark5",
+            "workinghours": "0-24",
+            "triggerpos": "3115.7 99.8878 10003.5",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3115.7 99.8878 10003.5"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tark_Child",
+                "Mutant_AoD_Tark1_Male",
+                "Mutant_AoD_Tark1_Female"
+            ]
+        },
+        {
+            "name": "Tushkan1",
+            "workinghours": "0-24",
+            "triggerpos": "5134.38 137 5495.87",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5134.38 137 5495.87"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan2",
+            "workinghours": "0-24",
+            "triggerpos": "5470.52 113.24 5013.08",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5470.52 113.24 5013.08"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan3",
+            "workinghours": "0-24",
+            "triggerpos": "5291.7 122.411 4326.07",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5291.7 122.411 4326.07"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan4",
+            "workinghours": "0-24",
+            "triggerpos": "4919.98 114.793 4088.19",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4919.98 114.793 4088.19"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan5",
+            "workinghours": "0-24",
+            "triggerpos": "5497.17 134.727 3753.13",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5497.17 134.727 3753.13"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan6",
+            "workinghours": "0-24",
+            "triggerpos": "4927.54 138.052 3172.52",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4927.54 138.052 3172.52"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan7",
+            "workinghours": "0-24",
+            "triggerpos": "4256.67 94.9731 2405.94",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4256.67 94.9731 2405.94"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan8",
+            "workinghours": "0-24",
+            "triggerpos": "5062.97 101.39 2279.96",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5062.97 101.39 2279.96"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan9",
+            "workinghours": "0-24",
+            "triggerpos": "5589.27 95.3902 1835",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5589.27 95.3902 1835"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan10",
+            "workinghours": "0-24",
+            "triggerpos": "5936.74 61.7649 694.692",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "5936.74 61.7649 694.692"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan11",
+            "workinghours": "0-24",
+            "triggerpos": "2420.89 38.3425 4791.06",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2420.89 38.3425 4791.06"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan12",
+            "workinghours": "0-24",
+            "triggerpos": "1916.11 28.3193 4058.88",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "1916.11 28.3193 4058.88"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan13",
+            "workinghours": "0-24",
+            "triggerpos": "4118.71 109.837 3284.36",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4118.71 109.837 3284.36"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan14",
+            "workinghours": "0-24",
+            "triggerpos": "2681 116.986 2841.26",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2681 116.986 2841.26"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan15",
+            "workinghours": "0-24",
+            "triggerpos": "2112.9 84.9809 2395.96",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2112.9 84.9809 2395.96"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan16",
+            "workinghours": "0-24",
+            "triggerpos": "6977.6 116.597 2630.67",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6977.6 116.597 2630.67"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 5,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan17",
+            "workinghours": "0-24",
+            "triggerpos": "4302.2 124.135 6119.87",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "4302.2 124.135 6119.87"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan18",
+            "workinghours": "0-24",
+            "triggerpos": "2528.65 57.734 6533.39",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "2528.65 57.734 6533.39"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 4,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Tushkan19",
+            "workinghours": "0-24",
+            "triggerpos": "3297.07 96.2451 10278.6",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "3297.07 96.2451 10278.6"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 6,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Tushkano1",
+                "Mutant_AoD_Tushkano2",
+                "Mutant_AoD_Tushkano3"
+            ]
+        },
+        {
+            "name": "Himera1",
+            "workinghours": "0-24",
+            "triggerpos": "1511.24 82.0451 1892.94",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "1511.24 82.0451 1892.94"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 2,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Himera1",
+                "Mutant_AoD_Himera2",
+                "Mutant_AoD_Himera3"
+            ]
+        },
+        {
+            "name": "Himera2",
+            "workinghours": "0-24",
+            "triggerpos": "6629.05 69.7508 933.871",
+            "triggermins": "-1 -0.2 -1",
+            "triggermaxs": "1 1 1",
+            "triggerradius": 150.0,
+            "triggercylradius": 0.0,
+            "triggercylheight": 0.0,
+            "notification": "",
+            "notificationtime": 2,
+            "triggerdelay": 1800,
+            "spawnerpos": [
+                "6629.05 69.7508 933.871"
+            ],
+            "spawnradius": 30.0,
+            "bubaknum": 1,
+            "onlyfilluptobubaknum": 1,
+            "itemrandomdmg": 1,
+            "bubaci": [
+                "Mutant_AoD_Himera1",
+                "Mutant_AoD_Himera2",
+                "Mutant_AoD_Himera3"
+            ]
+        }
+    ]
+}

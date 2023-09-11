@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<randompresets>
+		<cargo chance="1" name="foodArmy">
+				<item name="SodaCan_Cola" chance="0.1" />
+				<item name="SodaCan_Pipsi" chance="0.5" />
+				<item name="SodaCan_Spite" chance="0.5" />
+				<item name="TunaCan" chance="0.5" />
+				<item name="SardinesCan" chance="0.5" />
+				<item name="PeachesCan" chance="0.5" />
+				<item name="SpaghettiCan" chance="0.5" />
+				<item name="BakedBeansCan" chance="0.5" />
+				<item name="TacticalBaconCan" chance="0.5" />
+				<item name="Canteen" chance="0.5" />
+		</cargo>
+		<cargo chance="0.5" name="ammoArmy">
+				<item name="Ammo_9x19" chance="0.5" />
+				<item name="AmmoBox_9x19_25Rnd" chance="1" />
+				<item name="Ammo_545x39" chance="0.5" />
+				<item name="AmmoBox_545x39_20Rnd" chance="1" />
+				<item name="Ammo_762x54" chance="0.1" />
+				<item name="AmmoBox_762x54_20Rnd" chance="1" />
+		</cargo>
+		<!-- <cargo chance="1" name="mixArmy">
+				<item name="SodaCan_Cola" chance="1" />
+				<item name="SodaCan_Pipsi" chance="1" />
+				<item name="SodaCan_Spite" chance="1" />
+				<item name="TunaCan" chance="1" />
+				<item name="SardinesCan" chance="1" />
+				<item name="PeachesCan" chance="1" />
+				<item name="SpaghettiCan" chance="1" />
+				<item name="BakedBeansCan" chance="1" />
+				<item name="TacticalBaconCan" chance="1" />
+				<item name="Canteen" chance="1" />
+				<item name="Ammo_9x19" chance="1" />
+				<item name="AmmoBox_9x19_25Rnd" chance="1" />
+				<item name="Ammo_545x39" chance="1" />
+				<item name="AmmoBox_545x39_20Rnd" chance="1" />
+				<item name="Ammo_762x54" chance="1" />
+				<item name="AmmoBox_762x54_20Rnd" chance="1" />
+		</cargo> -->
+		<!-- -------------------------------------------------------------------------------------------- -->
+
+		<!-- -------------------------  ARMY ATTACHMENTS  ------------------------- -->
+		<attachments chance="0.60" name="hatsArmy">
+			<item name="MilitaryBeret_Red" chance="0.1" />
+			<item name="MilitaryBeret_UN" chance="0.1" />
+			<item name="MilitaryBeret_NZ" chance="0.1" />
+			<item name="MilitaryBeret_ChDKZ" chance="0.1" />
+			<item name="MilitaryBeret_CDF" chance="0.1" />
+		</attachments>
+		<attachments chance="1" name="glassesArmy">
+			<item name="AviatorGlasses" chance="5" />
+		</attachments>
+		<attachments chance="2" name="vestsArmy">
+			<item name="UKAssVest_Black" chance="1" />
+			<item name="UKAssVest_Camo" chance="1" />
+			<item name="UKAssVest_Khaki" chance="1" />
+			<item name="UKAssVest_Olive" chance="1" />
+			<item name="SmershVest" chance="1" />
+		</attachments>
+		<attachments chance="1" name="bagsArmy">
+			<item name="AssaultBag_Green" chance="0.1" />
+			<item name="AssaultBag_Ttsko" chance="0.1" />
+			<item name="AssaultBag_Black" chance="0.1" />
+			<item name="SmershBag" chance="1" />
+		</attachments>
+
+		<!-- -------------------------  UNIVERSAL ATTACHMENTS  ------------------------- -->
+		<!-- <attachments chance="10" name="vestsPress">
+				<item name="PressVest_Blue" chance="15" />
+				<item name="PressVest_LightBlue" chance="15" />
+		</attachments> -->
+</randompresets>

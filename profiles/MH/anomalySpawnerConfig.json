@@ -1,0 +1,1758 @@
+{
+	"enableAnomalyOptimization": 1,
+	"worldSizeX": 9891,
+	"worldSizeY": 9805,
+	"spawnDistanceNearPlayer": 200,
+	"updateTime": 10,
+	"enableAnomalyOrientation": 1,
+	"enableSpawnArtefacts": 1,
+	"spawnArtefactsType": 2,
+	"enableDebugLog": 1,
+	"Artefacts_Otklik": [
+		"art_batareyka",
+		"art_busy",
+		"art_dusha",
+		"art_glaz",
+		"art_gravi",
+		"art_izolator",
+		"Stone"
+	],
+	"Artefacts_Bear": [
+		"art_batareyka",
+		"art_busy",
+		"art_dusha",
+		"art_glaz",
+		"art_gravi",
+		"art_izolator",
+		"art_kameniy_cvetok",
+		"art_kolobok",
+		"art_kompas",
+		"art_kristal",
+		"art_krov_kamnya",
+		"art_myaso",
+		"art_bengal",
+		"art_pruzina",
+		"art_svetlyak",
+		"Stone"
+	],
+	"Artefacts_Veles": [
+		"art_batareyka",
+		"art_busy",
+		"art_dusha",
+		"art_glaz",
+		"art_gravi",
+		"art_izolator",
+		"art_kameniy_cvetok",
+		"art_kolobok",
+		"art_kompas",
+		"art_kristal",
+		"art_krov_kamnya",
+		"art_myaso",
+		"art_oasis",
+		"art_plamya",
+		"art_pustishka",
+		"art_puzir",
+		"art_ribka",
+		"art_shar",
+		"art_bengal",
+		"art_pruzina",
+		"art_svetlyak",
+		"Stone"
+	],
+	"Artefacts_Svarog": [
+		"art_batareyka",
+		"art_busy",
+		"art_dusha",
+		"art_glaz",
+		"art_gravi",
+		"art_izolator",
+		"art_kameniy_cvetok",
+		"art_kolobok",
+		"art_kompas",
+		"art_kristal",
+		"art_krov_kamnya",
+		"art_myaso",
+		"art_oasis",
+		"art_plamya",
+		"art_pustishka",
+		"art_puzir",
+		"art_ribka",
+		"art_shar",
+		"art_shturval",
+		"art_snejinka",
+		"art_svet",
+		"art_vyvert",
+		"art_vspishka",
+		"art_zvezda",
+		"art_plenka",
+		"art_meduza",
+		"art_bengal",
+		"art_pruzina",
+		"art_svetlyak",
+		"Stone"
+	],
+	"ArtefactsSpawnData": [
+		{
+			"AnomalyName": "MH_ZHARKA",
+			"SpawnChancePercent": 90,
+			"ArtefactsData": [
+				{
+					"ArtefactClassName": "art_busy",
+					"ArtefactSpawnChancePercent": 12
+				},
+				{
+					"ArtefactClassName": "art_plamya",
+					"ArtefactSpawnChancePercent": 12
+				},
+				{
+					"ArtefactClassName": "art_shar",
+					"ArtefactSpawnChancePercent": 12
+				},
+				{
+					"ArtefactClassName": "art_glaz",
+					"ArtefactSpawnChancePercent": 12
+				},
+				{
+					"ArtefactClassName": "art_kristal",
+					"ArtefactSpawnChancePercent": 6
+				},
+				{
+					"ArtefactClassName": "art_bengal",
+					"ArtefactSpawnChancePercent": 6
+				},
+				{
+					"ArtefactClassName": "art_shturval",
+					"ArtefactSpawnChancePercent": 12
+				},
+				{
+					"ArtefactClassName": "Stone",
+					"ArtefactSpawnChancePercent": 12
+				}
+			]
+		},
+		{
+			"AnomalyName": "MH_ELECTRA",
+			"SpawnChancePercent": 90,
+			"ArtefactsData": [
+				{
+					"ArtefactClassName": "art_batareyka",
+					"ArtefactSpawnChancePercent": 10
+				},
+				{
+					"ArtefactClassName": "art_snejinka",
+					"ArtefactSpawnChancePercent": 10
+				},
+				{
+					"ArtefactClassName": "art_izolator",
+					"ArtefactSpawnChancePercent": 10
+				},
+				{
+					"ArtefactClassName": "art_vspishka",
+					"ArtefactSpawnChancePercent": 10
+				},
+				{
+					"ArtefactClassName": "art_snejinka",
+					"ArtefactSpawnChancePercent": 10
+				},
+				{
+					"ArtefactClassName": "art_svet",
+					"ArtefactSpawnChancePercent": 10
+				},
+				{
+					"ArtefactClassName": "art_svetlyak",
+					"ArtefactSpawnChancePercent": 5
+				},
+				{
+					"ArtefactClassName": "Stone",
+					"ArtefactSpawnChancePercent": 10
+				}
+			]
+		},
+		{
+			"AnomalyName": "MH_STUDEN_GREEN",
+			"SpawnChancePercent": 90,
+			"ArtefactsData": [
+				{
+					"ArtefactClassName": "art_kolobok",
+					"ArtefactSpawnChancePercent": 10
+				},
+				{
+					"ArtefactClassName": "art_puzir",
+					"ArtefactSpawnChancePercent": 20
+				},
+				{
+					"ArtefactClassName": "art_dusha",
+					"ArtefactSpawnChancePercent": 20
+				},
+				{
+					"ArtefactClassName": "art_plenka",
+					"ArtefactSpawnChancePercent": 20
+				},
+				{
+					"ArtefactClassName": "Stone",
+					"ArtefactSpawnChancePercent": 20
+				}
+			]
+		},
+		{
+			"AnomalyName": "MH_TRAMPLIN",
+			"SpawnChancePercent": 90,
+			"ArtefactsData": [
+				{
+					"ArtefactClassName": "art_kameniy_cvetok",
+					"ArtefactSpawnChancePercent": 7
+				},
+				{
+					"ArtefactClassName": "art_krov_kamnya",
+					"ArtefactSpawnChancePercent": 7
+				},
+				{
+					"ArtefactClassName": "art_oasis",
+					"ArtefactSpawnChancePercent": 14
+				},
+				{
+					"ArtefactClassName": "art_ribka",
+					"ArtefactSpawnChancePercent": 14
+				},
+				{
+					"ArtefactClassName": "art_pruzina",
+					"ArtefactSpawnChancePercent": 7
+				},
+				{
+					"ArtefactClassName": "art_pustishka",
+					"ArtefactSpawnChancePercent": 14
+				},
+				{
+					"ArtefactClassName": "Stone",
+					"ArtefactSpawnChancePercent": 14
+				}
+			]
+		},
+		{
+			"AnomalyName": "MH_VORONKA",
+			"SpawnChancePercent": 90,
+			"ArtefactsData": [
+				{
+					"ArtefactClassName": "art_vyvert",
+					"ArtefactSpawnChancePercent": 15
+				},
+				{
+					"ArtefactClassName": "art_myaso",
+					"ArtefactSpawnChancePercent": 7
+				},
+				{
+					"ArtefactClassName": "art_zvezda",
+					"ArtefactSpawnChancePercent": 15
+				},
+				{
+					"ArtefactClassName": "art_meduza",
+					"ArtefactSpawnChancePercent": 15
+				},
+				{
+					"ArtefactClassName": "art_gravi",
+					"ArtefactSpawnChancePercent": 15
+				},
+				{
+					"ArtefactClassName": "Stone",
+					"ArtefactSpawnChancePercent": 15
+				}
+			]
+		}
+	],
+	"dynamicAnomaly": [
+		{
+			"_comment": "Кордон юкпп",
+			"zoneType": "Box",
+			"zonePosition": [4697.35, 0, 1314.77],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Кордон за деревней",
+			"zoneType": "Box",
+			"zonePosition": [4609.77, 0, 2004.24],
+			"zoneRadius": 80,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Кордон жд насыпь",
+			"zoneType": "Box",
+			"zonePosition": [4931.37, 0, 2190.37],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Кордон рядом с заводом",
+			"zoneType": "Box",
+			"zonePosition": [5247.8, 0, 2141.08],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Кордон за свинофермой",
+			"zoneType": "Box",
+			"zonePosition": [4693.12, 0, 2298.6],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Кордон вышка",
+			"zoneType": "Box",
+			"zonePosition": [4164.9, 0, 2464.37],
+			"zoneRadius": 70,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Кордон перед скпп",
+			"zoneType": "Box",
+			"zonePosition": [4994.18, 0, 2699.2],
+			"zoneRadius": 120,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Дорога свалку",
+			"zoneType": "Box",
+			"zonePosition": [5329.3, 0, 3546.45],
+			"zoneRadius": 120,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Предбанник пожарка",
+			"zoneType": "Box",
+			"zonePosition": [5997.67, 0, 529.814],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Предбанник завод",
+			"zoneType": "Box",
+			"zonePosition": [6836.36, 0, 500.351],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Предбанник деревня",
+			"zoneType": "Box",
+			"zonePosition": [6628.17, 0, 878.407],
+			"zoneRadius": 130,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Предбанник кпп",
+			"zoneType": "Box",
+			"zonePosition": [5821.61, 0, 1017.36],
+			"zoneRadius": 75,
+			"distanceBTWAnomaly": 25,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Предбанник возле кпп",
+			"zoneType": "Box",
+			"zonePosition": [5610.1, 0, 1067.26],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 25,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Свалка кислотки 1",
+			"zoneType": "Box",
+			"zonePosition": [5588.36, 0, 4315.5],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 25,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Свалка кислотки 2",
+			"zoneType": "Box",
+			"zonePosition": [5889.98, 0, 4304.92],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 25,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Свалка кислотки 3",
+			"zoneType": "Box",
+			"zonePosition": [5661.57, 0, 4944.57],
+			"zoneRadius": 70,
+			"distanceBTWAnomaly": 25,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Свалка кислотки 4",
+			"zoneType": "Box",
+			"zonePosition": [4783.62, 0, 4959.75],
+			"zoneRadius": 80,
+			"distanceBTWAnomaly": 25,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Свалка барахолка",
+			"zoneType": "Box",
+			"zonePosition": [5404.21, 0, 5009.51],
+			"zoneRadius": 60,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Свалка техники возле депо",
+			"zoneType": "Box",
+			"zonePosition": [5003.99, 0, 4052.68],
+			"zoneRadius": 150,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Свалка куча 1",
+			"zoneType": "Box",
+			"zonePosition": [5498.98, 0, 4723.86],
+			"zoneRadius": 80,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Свалка куча 2",
+			"zoneType": "Box",
+			"zonePosition": [5150.81, 0, 4343.72],
+			"zoneRadius": 80,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Свалка куча 3",
+			"zoneType": "Box",
+			"zonePosition": [5062.28, 0, 4930.86],
+			"zoneRadius": 80,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Свалка жд туннуль",
+			"zoneType": "Box",
+			"zonePosition": [4703.36, 0, 4644.96],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 1
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 1
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 1
+				}
+			]
+		},
+		{
+			"_comment": "Свалка тупик за техникой",
+			"zoneType": "Box",
+			"zonePosition": [4600.46, 0, 4225.06],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Дорога на агропром со свалки",
+			"zoneType": "Box",
+			"zonePosition": [3623.31, 0, 4979.55],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 25,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Дорога на бар",
+			"zoneType": "Box",
+			"zonePosition": [5148.97, 0, 5806.78],
+			"zoneRadius": 120,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Дорога возле домиков за баром",
+			"zoneType": "Box",
+			"zonePosition": [5125.14, 0, 6908.83],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Дикая территория начало",
+			"zoneType": "Box",
+			"zonePosition": [4551.67, 0, 6783.15],
+			"zoneRadius": 120,
+			"distanceBTWAnomaly": 30,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Дикая территория жарки",
+			"zoneType": "Box",
+			"zonePosition": [4563.14, 0, 6557.01],
+			"zoneRadius": 30,
+			"distanceBTWAnomaly": 10,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Дорога на янтарь с дикой 1",
+			"zoneType": "Box",
+			"zonePosition": [4563.14, 0, 6557.01],
+			"zoneRadius": 30,
+			"distanceBTWAnomaly": 10,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Дорога на янтарь с дикой",
+			"zoneType": "Box",
+			"zonePosition": [4686.36, 0, 6297.87],
+			"zoneRadius": 70,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Агропром озеро",
+			"zoneType": "Box",
+			"zonePosition": [2309.72, 0, 6110.62],
+			"zoneRadius": 70,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Агропром лес",
+			"zoneType": "Box",
+			"zonePosition": [2170.3, 0, 4426.85],
+			"zoneRadius": 75,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 4
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 4
+				}
+			]
+		},
+		{
+			"_comment": "Агропром",
+			"zoneType": "Box",
+			"zonePosition": [2222.62, 0, 4810.11],
+			"zoneRadius": 60,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 8
+				}
+			]
+		},
+		{
+			"_comment": "Хутор мужду агропромом и свинофермой",
+			"zoneType": "Box",
+			"zonePosition": [3510.74, 0, 4114.54],
+			"zoneRadius": 80,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 8
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Хутор слева по дороге на болота",
+			"zoneType": "Box",
+			"zonePosition": [3641.78, 0, 2417.04],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Кислотки перед автобусной станцией",
+			"zoneType": "Box",
+			"zonePosition": [3314.84, 0, 2589.33],
+			"zoneRadius": 80,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 6
+				}
+			]
+		},
+		{
+			"_comment": "Хутор слева перед болотами",
+			"zoneType": "Box",
+			"zonePosition": [2725.21, 0, 2000.75],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Болота расщелина",
+			"zoneType": "Box",
+			"zonePosition": [2165.57, 0, 2168.97],
+			"zoneRadius": 40,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Болота сгоревший хутор",
+			"zoneType": "Box",
+			"zonePosition": [1641.69, 0, 2126.78],
+			"zoneRadius": 30,
+			"distanceBTWAnomaly": 5,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Болота деревушка",
+			"zoneType": "Box",
+			"zonePosition": [2124.56, 0, 1556.46],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина свалка",
+			"zoneType": "Box",
+			"zonePosition": [7969.61, 0, 3806.54],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина болота 1",
+			"zoneType": "Box",
+			"zonePosition": [7537.73, 0, 4259.49],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 4
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина болота 2",
+			"zoneType": "Box",
+			"zonePosition": [7719.39, 0, 4029.67],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 4
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина болота 3",
+			"zoneType": "Box",
+			"zonePosition": [7719.39, 0, 4029.67],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 4
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 1
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина свиноферма",
+			"zoneType": "Box",
+			"zonePosition": [7366.02, 0, 3724.04],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 6
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина лес 1",
+			"zoneType": "Box",
+			"zonePosition": [8477.75, 0, 3920.11],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина лес 2",
+			"zoneType": "Box",
+			"zonePosition": [8708.08, 0, 4706.33],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина лес 3",
+			"zoneType": "Box",
+			"zonePosition": [8393.66, 0, 5105.44],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина лаба х-18",
+			"zoneType": "Box",
+			"zonePosition": [8142.17, 0, 4345.99],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Темная долина переход на свалку",
+			"zoneType": "Box",
+			"zonePosition": [7264.03, 0, 4468.75],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 15,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Дорога с агропрома на янтарь",
+			"zoneType": "Box",
+			"zonePosition": [1686.08, 0, 5258.25],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Перед выходом со лабы на х-16",
+			"zoneType": "Box",
+			"zonePosition": [2415.04, 0, 6342.76],
+			"zoneRadius": 70,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Озеро Янтарь",
+			"zoneType": "Box",
+			"zonePosition": [2309.72, 0, 6110.62],
+			"zoneRadius": 70,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				},
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Завод над лабой х-16",
+			"zoneType": "Box",
+			"zonePosition": [2510.51, 0, 6503.13],
+			"zoneRadius": 60,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 8
+				}
+			]
+		},
+		{
+			"_comment": "Янтарь перед входом на завод",
+			"zoneType": "Box",
+			"zonePosition": [2772.08, 0, 6523.15],
+			"zoneRadius": 120,
+			"distanceBTWAnomaly": 20,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 5
+				},
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Электры кордон, возле элеватора",
+			"zoneType": "Box",
+			"zonePosition": [4692.04, 0, 2092.1],
+			"zoneRadius": 30,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Электры подстанция перед болотами",
+			"zoneType": "Box",
+			"zonePosition": [2437.14, 0, 2756.21],
+			"zoneRadius": 70,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 6
+				}
+			]
+		},
+		{
+			"_comment": "Электры подстанция перед Агропромом",
+			"zoneType": "Box",
+			"zonePosition": [2048.21, 0, 4025.53],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Электры подстанция лощина",
+			"zoneType": "Box",
+			"zonePosition": [8733.5, 0, 894.276],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Электры ЛЭП перед бункером",
+			"zoneType": "Box",
+			"zonePosition": [1976.05, 0, 5660.47],
+			"zoneRadius": 30,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Электры подстанция перед бункером",
+			"zoneType": "Box",
+			"zonePosition": [2568.54, 0, 6376.26],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 5
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база ренегатов",
+			"zoneType": "Box",
+			"zonePosition": [2249.45, 0, 2133.56],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база ренегатов 2",
+			"zoneType": "Box",
+			"zonePosition": [2158.4, 0, 1972.58],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база ренегатов 3",
+			"zoneType": "Box",
+			"zonePosition": [2029.16, 0, 2125.93],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 4
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база ренегатов 4",
+			"zoneType": "Box",
+			"zonePosition": [2429.31, 0, 2031.31],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база ренегатов 5",
+			"zoneType": "Box",
+			"zonePosition": [2432.36, 0, 2314.73],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база ренегатов 6",
+			"zoneType": "Box",
+			"zonePosition": [2598.58, 0, 2247.92],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база ренегатов 7",
+			"zoneType": "Box",
+			"zonePosition": [2934.33, 0, 2371.27],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция",
+			"zoneType": "Box",
+			"zonePosition": [1688.17, 0, 1728.47],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция 2",
+			"zoneType": "Box",
+			"zonePosition": [1634.28, 0, 1926.02],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция 3",
+			"zoneType": "Box",
+			"zonePosition": [1527.67, 0, 1937.9],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция 4",
+			"zoneType": "Box",
+			"zonePosition": [1473.8, 0, 1866.69],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция 5",
+			"zoneType": "Box",
+			"zonePosition": [1743.76, 0, 2165.43],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция 6",
+			"zoneType": "Box",
+			"zonePosition": [1595.99, 0, 2126.98],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - жд",
+			"zoneType": "Box",
+			"zonePosition": [1703.15, 0, 2368.16],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - тузла",
+			"zoneType": "Box",
+			"zonePosition": [1311.97, 0, 2411.31],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				},
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция 7",
+			"zoneType": "Box",
+			"zonePosition": [1520.85, 0, 1679.39],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 4
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база чн",
+			"zoneType": "Box",
+			"zonePosition": [1711.95, 0, 1510.4],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - церковь",
+			"zoneType": "Box",
+			"zonePosition": [1867.09, 0, 1582.56],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - церковь 2",
+			"zoneType": "Box",
+			"zonePosition": [1997.54, 0, 1629.38],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - церковь 3",
+			"zoneType": "Box",
+			"zonePosition": [2108.12, 0, 1750.47],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ZHARKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - церковь 4",
+			"zoneType": "Box",
+			"zonePosition": [2185.66, 0, 1541.66],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - церковь 5",
+			"zoneType": "Box",
+			"zonePosition": [2330.78, 0, 1475.59],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - база чн 2",
+			"zoneType": "Box",
+			"zonePosition": [1460.45, 0, 1553.42],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция 8",
+			"zoneType": "Box",
+			"zonePosition": [1847.19, 0, 1833.73],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_VORONKA",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - насосная станция 9",
+			"zoneType": "Box",
+			"zonePosition": [2037.71, 0, 1857.44],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - вертолет",
+			"zoneType": "Box",
+			"zonePosition": [3115.06, 0, 2445.1],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - тропа",
+			"zoneType": "Box",
+			"zonePosition": [2908.35, 0, 2118.62],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_TRAMPLIN",
+					"anomalyCount": 2
+				}
+			]
+		},
+		{
+			"_comment": "Болота - церковь 4",
+			"zoneType": "Box",
+			"zonePosition": [2321.03, 0, 1561.94],
+			"zoneRadius": 50,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_STUDEN_GREEN",
+					"anomalyCount": 3
+				}
+			]
+		},
+		{
+			"_comment": "Болота - церковь 5",
+			"zoneType": "Box",
+			"zonePosition": [1323.47, 0, 1798.95],
+			"zoneRadius": 100,
+			"distanceBTWAnomaly": 2,
+			"checkGeometry": 1,
+			"anomalyData": [
+				{
+					"anomalyName": "MH_ELECTRA",
+					"anomalyCount": 4
+				}
+			]
+		}
+	]
+}

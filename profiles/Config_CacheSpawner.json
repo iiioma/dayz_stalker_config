@@ -1,0 +1,2455 @@
+{
+    "DebugLogs_enabled": 1,
+    "Enable_ChatMessageWhenSpawned": 0,
+    "ChatMessageWhenSpawned": "message",
+    "CacheList": [
+        {
+			"_comment": "Кордон",
+            "Classname": "ShronSafe",
+            "Min_Caches_In_Map": 2,
+            "Max_Caches_In_Map": 2,
+            "Coords": [
+                {
+                    "Position": [
+                        4782.41,
+                        86.25,
+                        1911.56
+                    ],
+                    "Orientation": [
+                        0,
+                        -0.11,
+                        -1.14
+                    ]
+                },
+                {
+                    "Position": [
+                        4929.96,
+                        103.63,
+                        2799.70
+                    ],
+                    "Orientation": [
+                        -98.99,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "Lunchmeat",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "SodaCan_Spite",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 200,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "CharcoalTablets",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_12gaPellets",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 15,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP_APS",
+                        "Chance_Spawn": 15,
+                        "Damaged": 2,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "BP_APSmag",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "WorkingGloves",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+        {
+			"_comment": "Кордон",
+            "Classname": "ShronPen",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        4631.92,
+                        108.15,
+                        2175.84
+                    ],
+                    "Orientation": [
+                        0,
+                        4.67,
+                        -1.14
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [                
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Lunchmeat",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "SodaCan_Spite",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 200,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "CharcoalTablets",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_12gaPellets",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 15,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP_APS",
+                        "Chance_Spawn": 15,
+                        "Damaged": 2,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "BP_APSmag",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "WorkingGloves",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Кордон",
+            "Classname": "ShronRukzak",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        5347.65,
+                        116.90,
+                        2323.27
+                    ],
+                    "Orientation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [                
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Lunchmeat",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "SodaCan_Spite",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 200,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "CharcoalTablets",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_12gaPellets",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 15,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP_APS",
+                        "Chance_Spawn": 15,
+                        "Damaged": 2,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "BP_APSmag",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "WorkingGloves",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Свалка",
+            "Classname": "ShronTruba",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        4937.54,
+                        138.83,
+                        3196.25
+                    ],
+                    "Orientation": [
+                        130.20,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_ban_tushpnka6",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_tonik_yagua",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 200,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "VitaminBottle",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP_Mp133k",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "WoolGlovesFingerless_Tan",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Свалка",
+            "Classname": "ShronPen",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        5461.00,
+                        113.35,
+                        3570.53
+                    ],
+                    "Orientation": [
+                        159.49,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_ban_tushpnka6",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_tonik_yagua",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 200,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "VitaminBottle",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP_Mp133k",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "WoolGlovesFingerless_Tan",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Свалка",
+            "Classname": "ShronWoodBox1",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        5026.12,
+                        115.82,
+                        4026.18
+                    ],
+                    "Orientation": [
+                        30.62,
+                        -1.49,
+                        -10.5
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_ban_tushpnka6",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_tonik_yagua",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 200,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "VitaminBottle",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP_Mp133k",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "WoolGlovesFingerless_Tan",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Свалка",
+            "Classname": "ShronRukzak",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        5537.62,
+                        128.03,
+                        4818.56
+                    ],
+                    "Orientation": [
+                        41.50,
+                        -27.60,
+                        -32.17
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_ban_tushpnka6",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_tonik_yagua",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 200,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "VitaminBottle",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP_Mp133k",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "WoolGlovesFingerless_Tan",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Свалка",
+            "Classname": "ShronWoodBox2",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        5190.02,
+                        130.22,
+                        5758.06
+                    ],
+                    "Orientation": [
+                        -119.45,
+                        -2.49,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_ban_tushpnka6",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_tonik_yagua",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 200,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "VitaminBottle",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP_Mp133k",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "WoolGlovesFingerless_Tan",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Дикая территория",
+            "Classname": "ShronBlueBox",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        4493.22,
+                        126.86,
+                        6783.27
+                    ],
+                    "Orientation": [
+                        29.27,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Дикая территория",
+            "Classname": "ShronRukzak",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        4519.39,
+                        126.87,
+                        6700.97
+                    ],
+                    "Orientation": [
+                        -63.99,
+                        -3.49,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Агропром",
+            "Classname": "ShronRukzak",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        3494.18,
+                        29.65,
+                        4925.39
+                    ],
+                    "Orientation": [
+                        -36.21,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Агропром",
+            "Classname": "ShronPen",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        2292.52,
+                        49.37,
+                        4963.73
+                    ],
+                    "Orientation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Агропром",
+            "Classname": "ShronWoodBox2",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        1890.82,
+                        29.54,
+                        4061.86
+                    ],
+                    "Orientation": [
+                        1,
+                        1,
+                        2.5
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Агропром",
+            "Classname": "ShronKrest",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        1715.53,
+                        63.09,
+                        4845.41
+                    ],
+                    "Orientation": [
+                        64.99,
+                        5.99,
+                        8
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Темная долина",
+            "Classname": "ShronKrest",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        7401.97,
+                        101.80,
+                        4886.66
+                    ],
+                    "Orientation": [
+                        32,
+                        -9.49,
+                        13
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Темная долина",
+            "Classname": "ShronSafe",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        7637.70,
+                        108.79,
+                        4572.19
+                    ],
+                    "Orientation": [
+                        -29.31,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Темная долина",
+            "Classname": "ShronBoxMetall",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        7557.75,
+                        109.26,
+                        4298.97
+                    ],
+                    "Orientation": [
+                        72.08,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Темная долина",
+            "Classname": "ShronKrest",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        7332.16,
+                        122.30,
+                        3983.59
+                    ],
+                    "Orientation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Темная долина",
+            "Classname": "ShronPen",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        8090.48,
+                        123.66,
+                        3873.58
+                    ],
+                    "Orientation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Food_box_Nes",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "BP1_Jack",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "TetracyclineAntibiotics",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 12,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_545",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 80,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "AKS74U_Black",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": [
+						{
+                            "Classname": "AKS74U_Bttstck_Black",
+                            "Chance_Spawn": 100,
+                            "Damaged": 0,
+                            "Weet": 0,
+                            "Temperature": 0,
+                            "IsStacked": 0,
+                            "Count_Stack": 0,
+                            "IsMeat": 0,
+                            "MeatFoodStage": ""
+                        }
+					]
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Facemask_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Армейские склады",
+            "Classname": "ShronWoodBox2",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        5571.70,
+                        135.17,
+                        8238.33
+                    ],
+                    "Orientation": [
+                        -159.32,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "Rak",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Canteen_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "aod_antirad",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_762x54",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 30,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "SawedoffMosin9130_Camo",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "Sneakers_Red",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        },
+		{
+			"_comment": "Армейские склады",
+            "Classname": "ShronPen",
+            "Min_Caches_In_Map": 1,
+            "Max_Caches_In_Map": 1,
+            "Coords": [
+                {
+                    "Position": [
+                        6035.35,
+                        153.43,
+                        8314.38
+                    ],
+                    "Orientation": [
+                        26.24,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "Time_Wait_Spawn": 1,
+            "Time_Respawn": 180,
+            "ItemsInside": [
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "Rak",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 500,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "MVS_Canteen_OD",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 1000,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "aod_antirad",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 50,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "Ammo_762x54",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0.5,
+                        "Temperature": 0,
+                        "IsStacked": 1,
+                        "Count_Stack": 30,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+                {
+                    "ItemCharacteristic": {
+                        "Classname": "SawedoffMosin9130_Camo",
+                        "Chance_Spawn": 15,
+                        "Damaged": 10,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": ""
+                    },
+                    "ItemsAttached": []
+                },
+				{
+                    "ItemCharacteristic": {
+                        "Classname": "Sneakers_Red",
+                        "Chance_Spawn": 50,
+                        "Damaged": 0,
+                        "Weet": 0,
+                        "Temperature": 0,
+                        "IsStacked": 0,
+                        "Count_Stack": 0,
+                        "IsMeat": 0,
+                        "MeatFoodStage": "0"
+                    },
+                    "ItemsAttached": []
+                }
+            ]
+        }
+    ]
+}

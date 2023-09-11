@@ -1,0 +1,840 @@
+{
+    "Version": "2.5",
+    "EnableAutoCalculation": 0,
+    "EnableAutoDestockAtRestart": 0,
+    "EnableDefaultTraderStock": 0,
+    "TraderCategories": [
+        {
+            "_comment": "Волк",
+			"CategoryName": "Еда",
+            "Products": [
+                "WaterBottle,1,-1,1000,100,-1",
+                "Canteen,1,-1,1000,250,-1",
+                "BakedBeansCan,1,-1,0,500,-1",
+                "TacticalBaconCan,1,-1,0,600,-1",
+                "SardinesCan,1,-1,0,400,-1",
+                "TunaCan,1,-1,0,300,-1",
+                "Vodka,1,-1,500,1200,-1",
+				"BP_IRP,1,-1,5000,5000,-1"
+            ]
+        },
+        {
+            "_comment": "Волк",
+			"CategoryName": "Медикаменты",
+            "Products": [
+                "PurificationTablets,1,-1,100,1000,-1",
+                "CharcoalTablets,1,-1,100,2000,-1",
+                "PainkillerTablets,1,-1,100,4000,-1",
+                "VitaminBottle,1,-1,100,3000,-1",
+                "IodineTincture,1,-1,250,2000,-1",
+				"BandageDressing,1,-1,4,100,-1",
+				"aod_antirad,1,-1,50,800,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Части мутантов",
+            "Products": [
+                "Mutant_AoD_Tushkano_Head,1,-1,0,-1,400",
+				"MutantTushkanoSteakMeat,1,-1,0,-1,50",
+                "Mutant_AoD_Boar_Leg,1,-1,0,-1,700",
+				"MutantBoarSteakMeat,1,-1,0,-1,70",
+                "Mutant_AoD_Cat_Leg,1,-1,0,-1,700",
+				"MutantCatSteakMeat,1,-1,0,-1,70",
+                "Mutant_AoD_Dog_Tail,1,-1,0,-1,900",
+				"MutantDogSteakMeat,1,-1,0,-1,70",
+                "Mutant_AoD_Fresh_Eye,1,-1,0,-1,700",
+				"MutantFreshSteakMeat,1,-1,0,-1,70",
+                "Mutant_AoD_Zombi_Hand,1,-1,0,-1,700"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Холодное оружие",
+            "Products": [
+				"HuntingKnife,1,-1,0,1000,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Головные уборы",
+            "Products": [
+				"BeanieHat_Blue,1,-1,0,6500,-1",
+				"FlatCap_Blue,1,-1,0,6500,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Куртки",
+            "Products": [
+				"TrackSuitJacket_Black,1,-1,0,5000,-1",
+				"TrackSuitJacket_Blue,1,-1,0,5000,-1",
+				"BomberJacket_Black,1,-1,0,8000,-1",
+				"BomberJacket_Brown,1,-1,0,8000,-1",
+				"HuntingJacket_Brown,1,-1,0,20000,-1",
+				"HuntingJacket_Summer,1,-1,0,20000,-1",
+				"SGE_Stalker_Sunrise_Jacket_Dw_3,1,-1,0,35000,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Штаны",
+            "Products": [
+				"CivilianBelt,1,-1,0,4000,-1",
+				"SGE_Stalker_Seva_Belt,1,-1,0,15000,-1",
+                "Jeans_Blue,1,-1,0,5000,-1",
+				"Jeans_Brown,1,-1,0,5000,-1",
+				"CargoPants_Black,1,-1,0,7000,-1",
+				"CargoPants_Green,1,-1,0,7000,-1",
+				"SGE_Stalker_Sunrise_Pants_3,1,-1,0,34000,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Ботинки",
+            "Products": [
+                "WorkingBoots_Grey,1,-1,0,4500,-1",
+				"WorkingBoots_Brown,1,-1,0,4500,-1",
+				"JoggingShoes_Black,1,-1,0,4000,-1",
+				"JoggingShoes_White,1,-1,0,4000,-1",
+				"TrackSuitJacket_Black,1,-1,0,5000,-1",
+				"TrackSuitJacket_Blue,1,-1,0,5000,-1",
+				"JungleBoots_Black,1,-1,0,9000,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Перчатки",
+            "Products": [
+                "WorkingGloves_Black,1,-1,0,6500,-1",
+				"WorkingGloves_Brown,1,-1,0,6500,-1"				
+			]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Броня",
+            "Products": [
+                "SGE_Stalker_Sunrise_Vest_3,1,-1,0,25000,-1",
+				"SGE_Stalker_Sunrise_Pouches_3,1,-1,0,25000,-1"				
+			]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Рюкзаки",
+            "Products": [
+				"aod_backpack_loner1_coyote,1,-1,0,45000,-1",
+				"aod_backpack_loner2_coyote,1,-1,0,45000,-1",
+				"aod_backpack_Loner_m53_assault,1,-1,0,32000,-1",
+				"aod_backpack_loner_tortilla,1,-1,0,44000,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Разное",
+            "Products": [
+                "Flashlight,1,-1,0,1000,-1",
+				"dzr_BatteryAA15V,1,-1,100,200,-1",
+				"Battery9V,1,-1,100,500,-1",
+				"Matchbox,1,-1,100,100,-1",
+				"Whetstone,1,-1,100,100,-1",
+				"Chemlight_Green,1,-1,0,100,-1",
+				"WeaponCleaningKit,1,-1,100,5000,-1",
+				"SewingKit,1,-1,100,5000,-1",
+				"LeatherSewingKit,1,-1,100,5000,-1",
+				"Paper,1,-1,0,100,-1",
+				"Pen_Blue,1,-1,0,150,-1",
+				"Shovel,1,-1,0,1000,-1",
+				"dzr_FielDShovel,1,-1,0,5000,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Пистолеты",
+            "Products": [
+                "Flaregun,1,-1,0,6000,-1",
+				"MakarovIJ70,1,-1,0,3000,-1",
+				"Mag_IJ70_8Rnd,1,-1,0,500,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Ружья",
+            "Products": [
+                "Toz66Hunter_AoD,1,-1,0,15000,-1",
+                "Toz66Obrez_AoD,1,-1,0,10000,-1",
+                "Mp133Shotgun,1,-1,0,21600,-1"
+            ]
+        },
+		{
+            "_comment": "Волк",
+			"CategoryName": "Боеприпасы",
+            "Products": [
+				"Ammo_380,1,-1,140,500,-1",
+                "Ammo_9x19,1,-1,100,500,-1",
+				"Ammo_12gaPellets,1,-1,80,700,-1",
+				"Ammo_12gaSlug,1,-1,80,700,-1",
+				"Ammo_Flare,1,-1,40,1000,-1",
+				"Ammo_FlareBlue,1,-1,40,1000,-1",
+				"Ammo_FlareGreen,1,-1,40,1000,-1",
+				"Ammo_FlareRed,1,-1,40,1000,-1"
+            ]
+        },
+		{
+			"_comment": "Волк",
+            "CategoryName": "Противогазы ",
+            "Products": [
+                "Slon_AoD_GasMask,1,-1,0,4000,-1",
+				"aod_antirad,1,-1,50,2000,-1"
+            ]
+        },
+        {
+            "_comment": "Сидорович",
+			"CategoryName": "Еда ",
+            "Products": [
+                "Carp,1,-1,1000,250,150",
+				"BakedBeansCan,1,-1,0,450,-1",
+				"TacticalBaconCan,1,-1,0,550,-1",
+				"BP1_Food_ban_Kukuruza,1,-1,0,400,-1",
+				"BP1_Food_ban_tusonka6,1,-1,0,500,-1",
+				"BP1_Food_ban_tusonka4,1,-1,0,500,-1",
+				"BP1_Food_ban_tusonka3,1,-1,0,500,-1",
+				"BP1_Food_ban_sgushenka,1,-1,0,450,-1",
+				"BP1_Food_ban_gribi,1,-1,0,450,-1",
+				"BP1_Food_ban_gorosek,1,-1,0,450,-1"
+            ]
+        },
+        {
+            "_comment": "Сидорович",
+			"CategoryName": "Части животных ",
+            "Products": [
+                "Bone,1,-1,10,250,100",
+                "Lard,1,-1,200,350,100"
+            ]
+        },
+        {
+            "_comment": "Сидорович",
+			"CategoryName": "Выпивка ",
+            "Products": [
+                "SodaCan_Cola,1,-1,300,150,-1",
+                "SodaCan_Pipsi,1,-1,300,150,-1",
+                "SodaCan_Spite,1,-1,300,150,-1",
+                "WaterBottle,1,-1,1000,200,-1",
+                "Canteen,1,-1,1000,500,-1",
+                "Vodka,1,-1,500,1200,-1",
+				"BP1_tarhun,1,-1,500,150,-1",
+				"BP1_limonad,1,-1,500,150,-1",
+				"BP1_cola_cherry,1,-1,500,150,-1",
+				"BP1_bootle_pepsi,1,-1,500,200,-1",
+				"BP_juice_zobniy1,1,-1,500,200,-1",
+				"BP1_Jack,1,-1,500,2500,-1"
+            ]
+        },
+        {
+            "_comment": "Сидорович",
+			"CategoryName": "Медицина ",
+            "Products": [
+                "BandageDressing,1,-1,4,300,-1",
+                "Thermometer,1,-1,0,300,-1",
+                "Heatpack,1,-1,0,300,-1",
+				"CharcoalTablets,1,-1,12,300,-1",
+				"aod_antirad,1,-1,50,600,-1"
+            ]
+        },
+        {
+            "_comment": "Сидорович",
+			"CategoryName": "Разное ",
+            "Products": [
+                "DisinfectantAlcohol,1,-1,200,300,-1",
+                "WeaponCleaningKit,1,-1,100,5000,-1",
+                "SewingKit,1,-1,100,3000,-1",
+                "Whetstone,1,-1,100,1000,-1",
+				"MH_Detector_Otklik,1,-1,0,550000,-1",
+				"DW_ArtContainer1,1,-1,0,200000,-1",
+				"BP3_BluTape,1,-1,10000,2000,-1",
+				"BP_Zelenka,1,-1,10000,300,-1",
+				"Shovel,1,-1,0,1000,-1",
+				"dzr_FielDShovel,1,-1,0,5000,-1",
+				"dzr_BatteryAA15V,1,-1,100,200,-1"
+            ]
+        },
+		{
+            "_comment": "Сидорович",
+			"CategoryName": "Одежда ",
+            "Products": [
+				"SportGlasses_Black,1,-1,0,5000,-1",
+				"BaseballCap_Beige,1,-1,0,3000,-1",
+				"BaseballCap_Black,1,-1,0,3000,-1",
+				"BeanieHat_Beige,1,-1,0,6000,-1",
+				"BeanieHat_Black,1,-1,0,6000,-1",
+				"Ushanka_Black,1,-1,0,7000,-1",
+				"Bandana_Blackpattern,1,-1,0,4000,-1",
+				"Bandana_Camopattern,1,-1,0,4000,-1",
+				"Bandana_Greenpattern,1,-1,0,4000,-1",
+				"Bandana_Polkapattern,1,-1,0,4000,-1",
+				"Bandana_Redpattern,1,-1,0,4000,-1",
+				"RadarCap_Black,1,-1,0,6000,-1",
+				"RadarCap_Blue,1,-1,0,6000,-1",
+				"Ssh68Helmet,1,-1,0,15000,-1",
+				"BalaclavaMask_Black,1,-1,0,3000,-1",
+				"Balaclava3Holes_Black,1,-1,0,3000,-1",
+				"Balaclava3Holes_Green,1,-1,0,3000,-1",
+				"WorkingGloves_Beige,1,-1,0,6000,-1",
+				"WorkingGloves_Black,1,-1,0,6000,-1",
+				"LeatherGloves_Natural,1,-1,0,7000,-1",
+				"aod_Vest_loner_ukassVest,1,-1,0,17000,-1",
+				"aod_Vest_loner_tacticalvest,1,-1,0,20000,-1",
+				"aod_Vest_loner1_tacticalvest,1,-1,0,20000,-1",
+				"ShortJeans_Green,1,-1,0,10000,-1",
+				"ShortJeans_Brown,1,-1,0,10000,-1",
+				"ShortJeans_Blue,1,-1,0,10000,-1",
+				"HunterPants_Summer,1,-1,0,15000,-1",
+				"HunterPants_Brown,1,-1,0,15000,-1",
+				"GorkaPants_Summer,1,-1,0,20000,-1",
+				"GorkaPants_Flat,1,-1,0,20000,-1",
+				"GorkaPants_PautRev,1,-1,0,20000,-1",
+				"USMCPants_Desert,1,-1,0,20000,-1",
+				"USMCPants_Woodland,1,-1,0,20000,-1",
+				"WorkingBoots_Grey,1,-1,0,4500,-1",
+				"WorkingBoots_Brown,1,-1,0,4500,-1",
+				"JoggingShoes_Black,1,-1,0,4000,-1",
+				"JoggingShoes_White,1,-1,0,4000,-1",
+				"JungleBoots_Black,1,-1,0,7000,-1",
+				"JungleBoots_Brown,1,-1,0,7000,-1",
+				"JungleBoots_Green,1,-1,0,7000,-1",
+				"CombatBoots_Black,1,-1,0,6000,-1",
+				"CombatBoots_Brown,1,-1,0,6000,-1",
+				"CombatBoots_Green,1,-1,0,6000,-1",
+				"Novice_AoD_Hood1_Yel_Body,1,-1,0,10000,-1",
+				"Novice_AoD_Hood1_Blk_Body,1,-1,0,10000,-1",
+				"Novice_AoD_Hood0_Yel_Body,1,-1,0,10000,-1",
+				"Novice_AoD_Hood0_Blk_Body,1,-1,0,10000,-1"
+            ]
+        },
+		{
+            "_comment": "Сидорович",
+			"CategoryName": "Оружие ",
+            "Products": [
+				"MakarovIJ70,1,-1,0,3000,-1",
+				"Mag_IJ70_8Rnd,1,-1,0,500,-1",
+				"BP_Glock19AUTO,1,-1,0,20000,-1",
+				"BP_Mag_Glock_30Rnd,1,-1,0,5000,-1",
+                "Toz66Obrez_AoD,1,-1,0,9000,-1",
+                "Toz66Hunter_AoD,1,-1,0,14000,-1",
+				"Ammo_12gaPellets,1,-1,80,500,-1",
+				"Ammo_380,1,-1,140,500,-1",
+				"Ammo_9x19,1,-1,100,500,-1"
+            ]
+        },
+        {
+            "_comment": "Сидорович",
+			"CategoryName": "Части мутантов ",
+            "Products": [
+                "Mutant_AoD_Tushkano_Head,1,-1,0,-1,400",
+				"MutantTushkanoSteakMeat,1,-1,0,-1,50",
+                "Mutant_AoD_Boar_Leg,1,-1,0,-1,900",
+				"MutantBoarSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Cat_Leg,1,-1,0,-1,700",
+				"MutantCatSteakMeat,1,-1,0,-1,70",
+                "Mutant_AoD_Dog_Tail,1,-1,0,-1,700",
+				"MutantDogSteakMeat,1,-1,0,-1,70",
+                "Mutant_AoD_Fresh_Eye,1,-1,0,-1,1000",
+				"MutantFreshSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Zombi_Hand,1,-1,0,-1,700"
+            ]
+        },
+		{
+            "_comment": "Сидорович",
+			"CategoryName": "Артефакты ",
+            "Products": [
+                "dw_art_batareyka,1,-1,0,-1,10000",
+                "dw_art_busy,1,-1,0,-1,10000",
+                "dw_art_dusha,1,-1,0,-1,10000",
+                "dw_art_glaz,1,-1,0,-1,10000",
+                "dw_art_gravi,1,-1,0,-1,10000",
+                "dw_art_izolator,1,-1,0,-1,10000"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Еда  ",
+            "Products": [
+                "WaterBottle,1,-1,1000,100,-1",
+                "Canteen,1,-1,1000,250,-1",
+                "BakedBeansCan,1,-1,0,500,-1",
+                "TacticalBaconCan,1,-1,0,600,-1",
+                "SardinesCan,1,-1,0,400,-1",
+                "TunaCan,1,-1,0,300,-1",
+                "Vodka,1,-1,500,1200,-1"
+            ]
+        },
+        {
+			"_comment": "Бармен",
+            "CategoryName": "Медикаменты  ",
+            "Products": [
+                "PurificationTablets,1,-1,100,1000,-1",
+                "CharcoalTablets,1,-1,100,2000,-1",
+                "PainkillerTablets,1,-1,100,4000,-1",
+                "VitaminBottle,1,-1,100,3000,-1",
+                "IodineTincture,1,-1,250,2000,-1",
+				"BandageDressing,1,-1,4,400,-1",
+				"aod_antirad,1,-1,50,1500,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Части мутантов  ",
+            "Products": [
+                "Mutant_AoD_Tushkano_Head,1,-1,0,-1,900",
+				"MutantTushkanoSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Boar_Leg,1,-1,0,-1,900",
+				"MutantBoarSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Cat_Leg,1,-1,0,-1,900",
+				"MutantCatSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Dog_Tail,1,-1,0,-1,900",
+				"MutantDogSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Fresh_Eye,1,-1,0,-1,900",
+				"MutantFreshSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Zombi_Hand,1,-1,0,-1,1100",
+				"Mutant_AoD_Izlom_Hand,1,-1,0,-1,2000"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Холодное оружие  ",
+            "Products": [
+				"HuntingKnife,1,-1,0,1000,-1",
+				"CombatKnife,1,-1,0,2000,-1",
+				"KukriKnife,1,-1,0,3000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Рюкзаки  ",
+            "Products": [
+				"aod_backpack_loner1_coyote,1,-1,0,46000,-1",
+				"aod_backpack_Loner_m53_assault,1,-1,0,32000,-1",
+				"aod_backpack_loner_drybag,1,-1,0,40000,-1",
+				"aod_backpack_loner1_tortilla,1,-1,0,45000,-1",
+				"aod_backpack_loner2_tortilla,1,-1,0,45000,-1",
+				"aod_backpack_loner_hunting,1,-1,0,44000,-1",
+				"aod_backpack_loner2_hunting,1,-1,0,46000,-1",
+				"aod_backpack_loner1_mountain,1,-1,0,60000,-1",
+				"aod_backpack_loner2_mountain,1,-1,0,60000,-1",
+				"aod_backpack_loner_alice,1,-1,0,60000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Разное  ",
+            "Products": [
+                "Flashlight,1,-1,0,1000,-1",
+				"dzr_BatteryAA15V,1,-1,100,200,-1",
+				"Battery9V,1,-1,100,500,-1",
+				"Matchbox,1,-1,100,100,-1",
+				"Whetstone,1,-1,100,1500,-1",
+				"Chemlight_Green,1,-1,0,100,-1",
+				"WeaponCleaningKit,1,-1,100,4000,-1",
+				"SewingKit,1,-1,100,5000,-1",
+				"LeatherSewingKit,1,-1,100,4000,-1",
+				"Headtorch_Grey,1,-1,0,15000,-1",
+				"ElectronicRepairKit,1,-1,100,2000,-1",
+				"EpoxyPutty,1,-1,100,1000,-1",
+				"TraderPlus_Wallet,1,-1,0,1500,-1",
+				"dzr_FielDShovel,1,-1,0,7000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Пистолеты  ",
+            "Products": [
+                "Flaregun,1,-1,0,6000,-1",
+				"Deagle,1,-1,0,20000,-1",
+				"Mag_Deagle_9rnd,1,-1,0,5000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Ружья  ",
+            "Products": [
+                "Toz66Hunter_AoD,1,-1,0,15000,-1",
+                "Toz66Obrez_AoD,1,-1,0,10000,-1",
+                "Mp133Shotgun,1,-1,0,21600,-1",
+				"Mosin9130_Black,1,-1,0,19000,-1",
+				"Mosin_Compensator,1,-1,0,2000,-1",
+				"PUScopeOptic,1,-1,0,20000,-1",
+				"Spas12_AoD_Buttstock,1,-1,0,2000,-1",
+				"Spas12_AoD,1,-1,0,30000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Боеприпасы  ",
+            "Products": [
+				"Ammo_12gaPellets,1,-1,80,700,-1",
+				"Ammo_12gaSlug,1,-1,80,700,-1",
+				"Ammo_Flare,1,-1,40,1000,-1",
+				"Ammo_FlareBlue,1,-1,40,1000,-1",
+				"Ammo_FlareGreen,1,-1,40,1000,-1",
+				"Ammo_FlareRed,1,-1,40,1000,-1",
+				"Ammo_357,1,-1,80,2000,-1",
+				"Ammo_762x54,1,-1,100,2000,-1",
+				"Ammo_556x45,1,100,80,3500,1000",
+				"Ammo_9x39,1,100,80,5000,1500"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Шапки  ",
+            "Products": [
+				"CowboyHat_black,1,-1,0,6000,-1",
+				"CowboyHat_Brown,1,-1,0,6000,-1",
+				"CowboyHat_green,1,-1,0,6000,-1",
+				"BalaclavaMask_Black,1,-1,0,3500,-1",
+				"BalaclavaMask_Blackskull,1,-1,0,6000,-1",
+				"BalaclavaMask_Pink,1,-1,0,6000,-1",
+				"BalaclavaMask_Blue,1,-1,0,6000,-1",
+				"Balaclava3Holes_Black,1,-1,0,3500,-1",
+				"Balaclava3Holes_Green,1,-1,0,3500,-1",
+				"BoonieHat_Black,1,-1,0,5000,-1",
+				"BoonieHat_Blue,1,-1,0,5000,-1",
+				"BoonieHat_DPM,1,-1,0,5000,-1",
+				"WitchHat,1,-1,0,10000,-1",
+				"TankerHelmet,1,-1,0,12000,-1",
+				"BallisticHelmet_Green,1,-1,0,18000,-1",
+				"BallisticHelmet_Black,1,-1,0,18000,-1",
+				"BallisticHelmet_UN,1,-1,0,18000,-1",
+				"GorkaHelmet,1,-1,0,25000,-1",
+				"GorkaHelmet_Green,1,-1,0,25000,-1",
+				"GorkaHelmet_Black,1,-1,0,25000,-1",
+				"GorkaHelmetVisor,1,-1,0,7000,-1",
+				"Mich2001Helmet,1,-1,0,20000,-1",
+				"aod_helmet_loner_Mich2001,1,-1,0,20000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Куртки  ",
+            "Products": [
+				"Raincoat_Black,1,-1,0,10000,-1",
+				"Raincoat_Green,1,-1,0,10000,-1",
+				"TacticalShirt_Grey,1,-1,0,20000,-1",
+				"TacticalShirt_Black,1,-1,0,20000,-1",
+				"TacticalShirt_Tan,1,-1,0,20000,-1",
+				"HikingJacket_Red,1,-1,0,20000,-1",
+				"HikingJacket_Green,1,-1,0,20000,-1",
+				"M65Jacket_Black,1,-1,0,35000,-1",
+				"M65Jacket_Khaki,1,-1,0,35000,-1",
+				"M65Jacket_Tan,1,-1,0,35000,-1",
+				"M65Jacket_Olive,1,-1,0,35000,-1",
+				"WoolCoat_Black,1,-1,0,20000,-1",
+				"WoolCoat_Green,1,-1,0,20000,-1",
+				"GorkaEJacket_Summer,1,-1,0,34000,-1",
+				"GorkaEJacket_Flat,1,-1,0,34000,-1",
+				"GorkaEJacket_PautRev,1,-1,0,34000,-1",
+				"QuiltedJacket_Black,1,-1,0,22000,-1",
+				"QuiltedJacket_Green,1,-1,0,22000,-1",
+				"BomberJacket_Black,1,-1,0,19000,-1",
+				"BomberJacket_Olive,1,-1,0,19000,-1",
+				"BomberJacket_Maroon,1,-1,0,19000,-1",
+				"HuntingJacket_Brown,1,-1,0,34000,-1",
+				"HuntingJacket_Spring,1,-1,0,34000,-1",
+				"HuntingJacket_Summer,1,-1,0,34000,-1",
+				"USMCJacket_Desert,1,-1,0,37000,-1",
+				"USMCJacket_Woodland,1,-1,0,37000,-1",
+				"Coat_AoD_Loner_Zorya_Brown_Body,1,-1,0,23000,-1",
+				"Coat_AoD_Loner_NewSeva_v1_Brown_Body,1,-1,0,23500,-1",
+				"NewSeva_AoD_Loner_Body_Hood0,1,-1,0,35000,-1",
+				"NewSeva_AoD_Loner_Body_Hood1,1,-1,0,35000,-1",
+				"Zorya_Sunrise_AoD_Loner_Body1,1,-1,0,36000,-1",
+				"Zorya_Sunrise_AoD_Loner_v2_Body1,1,-1,0,36000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Штаны  ",
+            "Products": [
+				"MilitaryBelt,1,-1,0,10000,-1",
+				"PlateCarrierHolster_Black,1,-1,0,10000,-1",
+				"PlateCarrierHolster_Green,1,-1,0,10000,-1",
+				"aod_holster_Loner_ballisticvest,1,-1,0,10000,-1",
+				"aod_holster_Loner1_ballisticvest,1,-1,0,10000,-1",
+				"NylonKnifeSheath,1,-1,0,10000,-1",
+				"CargoPants_Black,1,-1,0,15000,-1",
+				"CargoPants_Blue,1,-1,0,15000,-1",
+				"CargoPants_Green,1,-1,0,15000,-1",
+				"GorkaPants_Summer,1,-1,0,20000,-1",
+				"GorkaPants_Flat,1,-1,0,20000,-1",
+				"GorkaPants_PautRev,1,-1,0,20000,-1",
+				"USMCPants_Desert,1,-1,0,21000,-1",
+				"USMCPants_Woodland,1,-1,0,21000,-1",
+				"NewSeva_AoD_Loner_Pants,1,-1,0,45000,-1",
+				"NewSeva_AoD_Loner_v1_Pants,1,-1,0,45000,-1",
+				"NewSeva_AoD_Loner_v2_Pants,1,-1,0,45000,-1",
+				"Zorya_Sunrise_AoD_Loner_Pants,1,-1,0,44000,-1",
+				"Zorya_Sunrise_AoD_Loner_v1_Pants,1,-1,0,44000,-1",
+				"Zorya_Sunrise_AoD_Loner_v2_Pants,1,-1,0,44000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Ботинки  ",
+            "Products": [
+				"JungleBoots_Beige,1,-1,0,7000,-1",
+				"JungleBoots_Black,1,-1,0,7000,-1",
+				"JungleBoots_Brown,1,-1,0,7000,-1",
+				"JungleBoots_Green,1,-1,0,7000,-1",
+				"JungleBoots_Olive,1,-1,0,7000,-1",
+				"CombatBoots_Beige,1,-1,0,6500,-1",
+				"CombatBoots_Black,1,-1,0,6500,-1",
+				"CombatBoots_Brown,1,-1,0,6500,-1",
+				"CombatBoots_Green,1,-1,0,6500,-1",
+				"CombatBoots_Grey,1,-1,0,6500,-1",
+				"MilitaryBoots_Beige,1,-1,0,9000,-1",
+				"MilitaryBoots_Black,1,-1,0,9000,-1",
+				"MilitaryBoots_Bluerock,1,-1,0,10000,-1",
+				"MilitaryBoots_Brown,1,-1,0,10000,-1",
+				"MilitaryBoots_Redpunk,1,-1,0,13000,-1"
+            ]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Перчатки  ",
+            "Products": [
+				"WorkingGloves_Black,1,-1,0,7000,-1",
+				"WorkingGloves_Brown,1,-1,0,7000,-1",
+				"WorkingGloves_Yellow,1,-1,0,7000,-1",
+				"TacticalGloves_Black,1,-1,0,9000,-1",
+				"TacticalGloves_Beige,1,-1,0,9000,-1",
+				"TacticalGloves_Green,1,-1,0,9000,-1",
+				"OMNOGloves_Gray,1,-1,0,12000,-1",
+				"OMNOGloves_Brown,1,-1,0,12000,-1"
+			]
+        },
+		{
+			"_comment": "Бармен",
+            "CategoryName": "Броня  ",
+            "Products": [
+				"PoliceVest,1,-1,0,30000,-1",
+				"PlateCarrierVest,1,-1,0,50000,-1",
+				"PlateCarrierVest_Black,1,-1,0,50000,-1",
+				"PlateCarrierVest_Green,1,-1,0,50000,-1",
+				"PlateCarrierVest_Camo,1,-1,0,50000,-1",
+				"NewSeva_ArmSt_Loner_Vest,1,-1,0,110000,-1",
+				"PS3_7_AoD_Loner_Vests,1,-1,0,130000,-1"
+			]
+        },
+		{
+			"_comment": "Бандит",
+            "CategoryName": "Шмот",
+            "Products": [
+				"SGE_Loner_Raincoat,1,-1,0,15000,-1",
+				"SGE_Loner_Raincoat_dw,1,-1,0,15000,-1",
+				"SGE_Loner_Raincoat_Black,1,-1,0,15000,-1",
+				"SGE_Loner_Raincoat_Black_dw,1,-1,0,15000,-1",
+				"SGE_Stalker_Seva_Belt,1,-1,0,15000,-1"
+			]
+        },
+        {
+			"_comment": "Бандит",
+            "CategoryName": "Волыны",
+            "Products": [
+                "AKSU_AoD,1,-1,0,23000,-1",
+                "Mag_AoD_Aksu_30Rnd,1,-1,0,2000,-1",
+                "AKSU_AoD_Buttstock,1,-1,0,1000,-1",
+				"AKSU_AoD_Hndgrd,1,-1,0,1000,-1",
+				"AKSU_AoD_Compensator,1,-1,0,1000,-1",
+				"Ammo_545x39,1,-1,80,1000,-1",
+				"Toz66Hunter_AoD,1,-1,0,14000,-1"
+            ]
+        },
+		{
+			"_comment": "Бандит",
+            "CategoryName": "Пилюли",
+            "Products": [
+				"PurificationTablets,1,-1,100,500,-1",
+                "CharcoalTablets,1,-1,100,1000,-1",
+                "PainkillerTablets,1,-1,100,2000,-1",
+                "VitaminBottle,1,-1,100,2000,-1",
+                "IodineTincture,1,-1,250,1500,-1",
+				"BandageDressing,1,-1,4,200,-1",
+				"aod_antirad,1,-1,50,1500,-1"
+            ]
+        },
+		{
+			"_comment": "Бандит",
+            "CategoryName": "Хавчик",
+            "Products": [
+                "Canteen,1,-1,1000,900,-1",
+                "Vodka,1,-1,1000,1500,-1",
+                "SodaCan_Kvass,1,-1,250,700,-1",
+				"Zagorky,1,-1,100,200,-1",
+				"ZagorkyPeanuts,1,-1,100,200,-1",
+				"SaltySticks,1,-1,100,200,-1",
+				"SpaghettiCan,1,-1,100,600,-1",
+				"PorkCan,1,-1,100,600,-1",
+				"Lunchmeat,1,-1,100,600,-1",
+				"GoatSteakMeat,1,-1,150,250,-1"
+            ]
+        },
+		{
+			"_comment": "Застава долга",
+            "CategoryName": "Противогазы",
+            "Products": [
+                "HOMA_AoD_w_GasMask,1,-1,0,2000,-1",
+				"HOMA_AoD_GasMask_Filter,1,-1,200,200,-1",
+                "P1_AoD_Loner_GasMask,1,-1,0,5000,-1",
+				"P1_AoD_GasMask_Filter,1,-1,200,500,-1",
+                "AVC_AoD_GasMask,1,-1,0,12000,-1",
+				"AVC_AoD_GasMask_Filter,1,-1,200,1200,-1",
+				"aod_antirad,1,-1,50,1400,-1"
+            ]
+        },
+		{
+			"_comment": "Застава долга",
+            "CategoryName": "Скупка частей мутантов",
+            "Products": [
+                "Mutant_AoD_Dog_Tail,1,-1,0,-1,800"
+            ]
+        },
+		{
+			"_comment": "Сахаров",
+            "CategoryName": "Обмундирование",
+            "Products": [
+                "NewSeva_ArmSt_Science1_Back,1,-1,0,20000,-1",
+				"NewSeva_ArmSt_Science2_Back,1,-1,0,20000,-1",
+				"NewSeva_AoD_Loner_Back,1,-1,0,20000,-1",
+				"NewSeva_ArmSt_Science1_Body_Hood0,1,-1,0,35000,-1",
+				"NewSeva_ArmSt_Science2_Body_Hood0,1,-1,0,35000,-1",
+				"NewSeva_AoD_Loner_Helmet,1,-1,0,35000,-1",
+				"NewSeva_ArmSt_Science1_Helmet,1,-1,0,22000,-1",
+				"NewSeva_ArmSt_Science2_Helmet,1,-1,0,22000,-1",
+				"NewSeva_ArmSt_Science1_Pants,1,-1,0,40000,-1",
+				"NewSeva_ArmSt_Science2_Pants,1,-1,0,40000,-1",
+				"NewSeva_ArmSt_Science1_Vest,1,-1,0,120000,-1",
+				"NewSeva_ArmSt_Science2_Vest,1,-1,0,120000,-1",
+				"aod_Vest_ecolog_tacticalvest_ssp99,1,-1,0,15000,-1",
+				"aod_backpack_ecolog_coyote,1,-1,0,50000,-1",
+				"aod_backpack_ecolog_drybag,1,-1,0,45000,-1",	
+				"aod_backpack_ecolog_alice,1,-1,0,60000,-1",
+				"TacticalGloves_Black,1,-1,0,10000,-1",
+				"ItemPDA,1,-1,0,30000,-1",
+				"Belt_for_artefacts,1,-1,0,200000,-1"
+            ]
+        },
+		{
+			"_comment": "Сахаров",
+            "CategoryName": "Разное   ",
+            "Products": [
+				"Matchbox,1,-1,100,100,-1",
+				"Chemlight_Green,1,-1,0,100,-1",
+				"Whetstone,1,-1,100,400,-1",
+				"EpoxyPutty,1,-1,100,500,-1",
+				"dzr_BatteryAA15V,1,-1,100,200,-1",
+              	"Battery9V,1,-1,100,500,-1",			
+				"Flashlight,1,-1,0,1000,-1",
+				"ElectronicRepairKit,1,-1,100,1200,-1",	
+				"WeaponCleaningKit,1,-1,100,3000,-1",
+				"SewingKit,1,-1,100,3500,-1",
+				"LeatherSewingKit,1,-1,100,4000,-1",
+				"Headtorch_Grey,1,-1,0,12000,-1",
+				"MH_Detector_Otklik,1,-1,0,500000,-1",
+				"DW_ArtContainer1,1,-1,0,150000,-1"				
+            ]
+        },
+		{
+            "_comment": "Сахаров",
+			"CategoryName": "Артефакты",
+            "Products": [
+                "dw_art_batareyka,1,-1,0,-1,50000",
+                "dw_art_busy,1,-1,0,-1,50000",
+                "dw_art_dusha,1,-1,0,-1,50000",
+                "dw_art_glaz,1,-1,0,-1,50000",
+                "dw_art_gravi,1,-1,0,-1,50000",
+                "dw_art_izolator,1,-1,0,-1,50000",
+				"dw_art_kameniy_cvetok,1,-1,0,-1,50000",
+                "dw_art_kolobok,1,-1,0,-1,50000",
+                "dw_art_kompas,1,-1,0,-1,50000",
+                "dw_art_kristal,1,-1,0,-1,50000",
+                "dw_art_krov_kamnya,1,-1,0,-1,50000",
+                "dw_art_myaso,1,-1,0,-1,50000",
+				"dw_art_bengal,1,-1,0,-1,50000",
+                "dw_art_pruzina,1,-1,0,-1,50000",
+                "dw_art_svetlyak,1,-1,0,-1,50000"
+            ]
+        },
+		{
+            "_comment": "Медичка",
+			"CategoryName": "Медикаменты   ",
+            "Products": [
+                "PurificationTablets,1,-1,100,1000,-1",
+                "CharcoalTablets,1,-1,100,2000,-1",
+                "PainkillerTablets,1,-1,100,4000,-1",
+                "VitaminBottle,1,-1,100,3000,-1",
+                "IodineTincture,1,-1,250,2000,-1",
+				"BandageDressing,1,-1,4,400,-1",
+				"aod_antirad,1,-1,50,1500,-1",
+				"DSU_MedKitMedium,1,-1,100,5000,-1",
+				"DSU_MedKitLarge,1,-1,100,7000,-1",
+				"TetracyclineAntibiotics,1,-1,12,5000,-1",
+				"SalineBagIV,1,-1,100,7000,-1",
+				"SalineBag,1,-1,100,5000,-1",
+				"BloodTestKit,1,-1,100,5000,-1",
+				"BloodBagEmpty,1,-1,100,4000,-1",
+				"StartKitIV,1,-1,100,4000,-1",
+				"DisinfectantSpray,1,-1,1000,2000,-1",
+				"DSU_Radjector,1,-1,100,10000,-1",
+				"Thermometer,1,-1,100,1000,-1",
+				"FirstAidKit,1,-1,100,1000,-1",
+				"Morphine,1,-1,100,8000,-1",
+				"Epinephrine,1,-1,100,10000,-1",
+				"KIP5g_AoD_OxyBalon_L,1,-1,400,8000,-1",
+				"KIP5g_AoD_OxyBalon_R,1,-1,400,8000,-1"
+            ]
+        },
+		{
+			"_comment": "Охотник",
+            "CategoryName": "Скупка частей мутантов ",
+            "Products": [
+                "Mutant_AoD_Tushkano_Head,1,-1,0,-1,900",
+				"MutantTushkanoSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Boar_Leg,1,-1,0,-1,900",
+				"MutantBoarSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Cat_Leg,1,-1,0,-1,900",
+				"MutantCatSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Dog_Tail,1,-1,0,-1,900",
+				"MutantDogSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Fresh_Eye,1,-1,0,-1,900",
+				"MutantFreshSteakMeat,1,-1,0,-1,100",
+                "Mutant_AoD_Zombi_Hand,1,-1,0,-1,1100",
+				"Mutant_AoD_Izlom_Hand,1,-1,0,-1,4000",				
+				"Mutant_AoD_Snork_Leg,1,-1,0,-1,6000",
+				"Mutant_AoD_RatWolf_Eye,1,-1,0,-1,7000",
+				"MutantRatWolfSteakMeat,1,-1,0,-1,700",
+				"Mutant_AoD_Krovosos_Jaw,1,-1,0,-1,7000",
+				"Mutant_AoD_Krovosos_C_Jaw,1,-1,0,-1,9000",				
+				"Mutant_AoD_Poltergeist_Eye,1,-1,0,-1,20000",
+				"MutantPoltergeistSteakMeat,1,-1,0,-1,2000",
+				"Mutant_AoD_Pdog_Tail,1,-1,0,-1,20000",
+				"MutantPdogSteakMeat,1,-1,0,-1,500",
+				"Mutant_AoD_Burer_Hand,1,-1,0,-1,30000",
+				"Mutant_AoD_Controller_Hand,1,-1,0,-1,40000",
+				"Mutant_AoD_Himera_Kogot,1,-1,0,-1,40000",
+				"MutantHimeraSteakMeat,1,-1,0,-1,4000",	
+				"Mutant_AoD_Pgigant_Hand,1,-1,0,-1,45000",
+				"MutantPgigantSteakMeat,1,-1,0,-1,4500",																
+				"Mutant_AoD_Forester_Kogot,1,-1,0,-1,50000",
+				"MutantForesterSteakMeat,1,-1,0,-1,100",							
+				"Mutant_AoD_Tark_Horn,1,-1,0,-1,50000",
+				"MutantTarkSteakMeat,1,-1,0,-1,5000"
+            ]
+        },
+		{
+			"_comment": "Охотник",
+            "CategoryName": "Патроны",
+            "Products": [
+				"Ammo_12gaPellets,1,-1,80,1000,-1",
+				"Ammo_545x39,1,-1,80,1500,1000"
+            ]
+        }
+    ]
+}
