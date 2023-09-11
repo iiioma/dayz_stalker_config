@@ -11,10 +11,10 @@
 
 ### Для добавления на свой сервер схорнов, трейдера, аномалии и спавна мутантов, используйте следующие модификации:
 
-[TraderPlus](https://steamcommunity.com/sharedfiles/filedetails/?id=2458896948)
-[TalkingNPC](https://steamcommunity.com/sharedfiles/filedetails/?id=2599373319)
-[MH STALKER Anomalys and Detectors](https://steamcommunity.com/sharedfiles/filedetails/?id=3012329988)
-[CacheSpawner](https://steamcommunity.com/sharedfiles/filedetails/?id=2768705995)
+[TraderPlus](https://steamcommunity.com/sharedfiles/filedetails/?id=2458896948)\
+[TalkingNPC](https://steamcommunity.com/sharedfiles/filedetails/?id=2599373319)\
+[MH STALKER Anomalys and Detectors](https://steamcommunity.com/sharedfiles/filedetails/?id=3012329988)\
+[CacheSpawner](https://steamcommunity.com/sharedfiles/filedetails/?id=2768705995)\
 [SpawnerBubaku](https://steamcommunity.com/sharedfiles/filedetails/?id=2482312670)
 
 ## Наш сервер
