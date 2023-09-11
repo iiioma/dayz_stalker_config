@@ -7,6 +7,8 @@
 [S.T.A.L.K.E.R.: Area Of Decay Map](https://steamcommunity.com/sharedfiles/filedetails/?id=2871587357)\
 [S.T.A.L.K.E.R.: Area Of Decay Building](https://steamcommunity.com/sharedfiles/filedetails/?id=2871588282)
 
+В директории profiles находятся настройки аномалий, мутантов, схоронов и торговцев, которые любой может установить бесплатно
+
 ### Наш сервер
 
 [Cсылка на дискорд](https://discord.gg/aesHPnRYbk)
