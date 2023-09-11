@@ -249,7 +249,6 @@
                 "SewingKit,1,-1,100,3000,-1",
                 "Whetstone,1,-1,100,1000,-1",
 				"MH_Detector_Otklik,1,-1,0,550000,-1",
-				"DW_ArtContainer1,1,-1,0,200000,-1",
 				"BP3_BluTape,1,-1,10000,2000,-1",
 				"BP_Zelenka,1,-1,10000,300,-1",
 				"Shovel,1,-1,0,1000,-1",
@@ -346,12 +345,12 @@
             "_comment": "Сидорович",
 			"CategoryName": "Артефакты ",
             "Products": [
-                "dw_art_batareyka,1,-1,0,-1,10000",
-                "dw_art_busy,1,-1,0,-1,10000",
-                "dw_art_dusha,1,-1,0,-1,10000",
-                "dw_art_glaz,1,-1,0,-1,10000",
-                "dw_art_gravi,1,-1,0,-1,10000",
-                "dw_art_izolator,1,-1,0,-1,10000"
+                "art_batareyka,1,-1,0,-1,10000",
+                "art_busy,1,-1,0,-1,10000",
+                "art_dusha,1,-1,0,-1,10000",
+                "art_glaz,1,-1,0,-1,10000",
+                "art_gravi,1,-1,0,-1,10000",
+                "art_izolator,1,-1,0,-1,10000"
             ]
         },
 		{
@@ -717,7 +716,6 @@
 				"aod_backpack_ecolog_drybag,1,-1,0,45000,-1",	
 				"aod_backpack_ecolog_alice,1,-1,0,60000,-1",
 				"TacticalGloves_Black,1,-1,0,10000,-1",
-				"ItemPDA,1,-1,0,30000,-1",
 				"Belt_for_artefacts,1,-1,0,200000,-1"
             ]
         },
@@ -737,29 +735,28 @@
 				"SewingKit,1,-1,100,3500,-1",
 				"LeatherSewingKit,1,-1,100,4000,-1",
 				"Headtorch_Grey,1,-1,0,12000,-1",
-				"MH_Detector_Otklik,1,-1,0,500000,-1",
-				"DW_ArtContainer1,1,-1,0,150000,-1"				
+				"MH_Detector_Otklik,1,-1,0,500000,-1"				
             ]
         },
 		{
             "_comment": "Сахаров",
 			"CategoryName": "Артефакты",
             "Products": [
-                "dw_art_batareyka,1,-1,0,-1,50000",
-                "dw_art_busy,1,-1,0,-1,50000",
-                "dw_art_dusha,1,-1,0,-1,50000",
-                "dw_art_glaz,1,-1,0,-1,50000",
-                "dw_art_gravi,1,-1,0,-1,50000",
-                "dw_art_izolator,1,-1,0,-1,50000",
-				"dw_art_kameniy_cvetok,1,-1,0,-1,50000",
-                "dw_art_kolobok,1,-1,0,-1,50000",
-                "dw_art_kompas,1,-1,0,-1,50000",
-                "dw_art_kristal,1,-1,0,-1,50000",
-                "dw_art_krov_kamnya,1,-1,0,-1,50000",
-                "dw_art_myaso,1,-1,0,-1,50000",
-				"dw_art_bengal,1,-1,0,-1,50000",
-                "dw_art_pruzina,1,-1,0,-1,50000",
-                "dw_art_svetlyak,1,-1,0,-1,50000"
+                "art_batareyka,1,-1,0,-1,50000",
+                "art_busy,1,-1,0,-1,50000",
+                "art_dusha,1,-1,0,-1,50000",
+                "art_glaz,1,-1,0,-1,50000",
+                "art_gravi,1,-1,0,-1,50000",
+                "art_izolator,1,-1,0,-1,50000",
+				"art_kameniy_cvetok,1,-1,0,-1,50000",
+                "art_kolobok,1,-1,0,-1,50000",
+                "art_kompas,1,-1,0,-1,50000",
+                "art_kristal,1,-1,0,-1,50000",
+                "art_krov_kamnya,1,-1,0,-1,50000",
+                "art_myaso,1,-1,0,-1,50000",
+				"art_bengal,1,-1,0,-1,50000",
+                "art_pruzina,1,-1,0,-1,50000",
+                "art_svetlyak,1,-1,0,-1,50000"
             ]
         },
 		{
